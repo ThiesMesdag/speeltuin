@@ -38,3 +38,6 @@ th, td {
     hyphens: auto;
     padding: 0.25em;
 }
+td { 
+    font-size: 80%;
+}

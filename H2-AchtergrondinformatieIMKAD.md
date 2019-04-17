@@ -30,7 +30,7 @@ De delen van het model die informatie uit ander basisregistraties weergeven zijn
 
 In IMKAD worden voor een de gegevens met een vast waardebereik referentielijsten gehanteerd. Deze referentielijsten worden beheerd als lijsten met toegestane waarden (waardelijsten). Een voorbeeld is een lijst met gemeentecodes met bijbehorende gemeentenamen.
 
-Waardelijsten gaan over inhoud, een informatiemodel vooral over structuur. Waardelijsten hebben ook een andere dynamiek dan het informatiemodel. Zo leidt bijvoorbeeld een gemeentelijke herindeling tot een aanpassing van de waardelijst ‘Nederlandse gemeenten’ zonder dat dit gevolgen heeft voor het informatiemodel. De IMKAD waardelijsten worden gepubliceerd op www.kadaster.nl/waardelijsten en zijn ook rechtstreekst te benaderen via de url in het informatiemodel.
+Waardelijsten gaan over inhoud, een informatiemodel vooral over structuur. Waardelijsten hebben ook een andere dynamiek dan het informatiemodel. Zo leidt bijvoorbeeld een gemeentelijke herindeling tot een aanpassing van de waardelijst ‘Nederlandse gemeenten’ zonder dat dit gevolgen heeft voor het informatiemodel. De IMKAD waardelijsten worden gepubliceerd op www.kadaster.nl/waardelijsten en zijn ook rechtstreeks te benaderen via de url in het informatiemodel.
 
 
 <h3>Historie van BRK objecten.</h3>
@@ -83,7 +83,7 @@ Ad materiele tijdstippen:
 
 __Voorkomen/versie__
 
-De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype `<<objecttype>>` en dat deze attribuutsoorten overerft van Historie::Voorkomen (`_VoorkomenOR` of `_VoorkomenNen3610` in de rechterbovenhoek van een object). Een voorkomen bevat de gegevens van één object, zoals deze gedurende een bepaalde periode bekend zijn bij het object. Oftewel, de gegevens van één object zoals opgenomen zijn in de BRK, zonder dat de gegevens een wijziging hebben ondergaan. Na elke wijziging ontstaan een nieuw voorkomen. De basis van elk vooromen zijn de BRK gegevens zelf, maar de historiegegevens zelf zijn ook onderdeel van het voorkomen (als metagegevens). 
+De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype ` <<objecttype>>` en dat deze attribuutsoorten overerft van Historie::Voorkomen (`_VoorkomenOR` of `_VoorkomenNen3610` in de rechterbovenhoek van een object). Een voorkomen bevat de gegevens van één object, zoals deze gedurende een bepaalde periode bekend zijn bij het object. Oftewel, de gegevens van één object zoals opgenomen zijn in de BRK, zonder dat de gegevens een wijziging hebben ondergaan. Na elke wijziging ontstaan een nieuw voorkomen. De basis van elk vooromen zijn de BRK gegevens zelf, maar de historiegegevens zelf zijn ook onderdeel van het voorkomen (als metagegevens). 
 
 Een voorkomen/versie wordt uniek aangeduid met een combinatie van gegevens: 
 *	identificatie van het object 
