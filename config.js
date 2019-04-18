@@ -12,7 +12,7 @@ var respecConfig = {
 //    {
 //      name: "Geonovum",
 //      url: "https://www.geonovum.nl", 
-//    },  
+    },  
   ],
   logos: [{
 		src: 'https://zakelijk.kadaster.nl/iv-kadaster-theme/images/logo.png',
