@@ -16,7 +16,7 @@ var respecConfig = {
 		alt: "Kadaster logo",
 		id: 'KadasterLogo',
   }]
-  shortName: "IMKAD",
+  //shortName: "IMKAD",
   pubDomain: "IMKAD",
   github: "https://github.com/Kadaster/imkad",
   previousPublishDate: "2012-05-08",
