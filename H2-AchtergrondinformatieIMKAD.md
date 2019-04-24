@@ -24,7 +24,7 @@ Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk t
 
 ![Afbeelding van de package structuur in IMKAD](packagesImkad.png)
 
-De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als `<<`View`>>` Packages die modellen uit andere basisregistraties weergeven.
+De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als (view.png) packages die modellen uit andere basisregistraties weergeven.
 
 <h3>Waardelijsten</h3>
 
@@ -39,7 +39,7 @@ Binnen de BRK is er onderscheid te maken tussen het openbaar register en de Kada
 Met de informatie die in deze ingeschreven stukken staat wordt de Kadastrale registratie bijgewerkt naar de nieuwe juiste stand. In deze registratie wordt vastgelegd wie welke rechten heeft op een Kadastraal object. Een Kadastraal object is een [onroerende zaak](https://tax.kadaster.nl/doc/begrip/Onroerende_zaak) of een [teboekgestelde zaak](https://tax.kadaster.nl/doc/begrip/Teboekgestelde_zaak). In de BRK is een onroerende zaak een perceel, een appartementsrecht of een netwerk. De teboekgestelde zaken zijn schepen of luchtvaartuigen. Deze zijn echter niet opgenomen in het hier beschreven informatiemodel. 
 De Kadastrale registratie is de basis voor veel van de informatieproducten van het kadaster.
 
-In het informatiemodel wordt het openbaar register beschreven met het model in de package `<<Stuk>>`. De Kadastrale registratie wordt in de kern beschreven in de package `<<Recht>>` met als basis de packages `<<KadastraalObject>>`, `<<OnroerendeZaak>>` en `<<Persoon>>`.
+In het informatiemodel wordt het openbaar register beschreven met het model in de package Stuk. De Kadastrale registratie wordt in de kern beschreven in de package *Recht* met als basis de packages *KadastraalObject*, *OnroerendeZaak* en *Persoon*.
 
 <h3>Historie van BRK objecten.</h3>
 
@@ -91,7 +91,7 @@ Ad materiele tijdstippen:
 
 __Voorkomen/versie__
 
-De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype &lt;&lt;`objecttype>>` en dat deze attribuutsoorten overerft van Historie::Voorkomen (`_VoorkomenOR` of `_VoorkomenNen3610` in de rechterbovenhoek van een object). Een voorkomen bevat de gegevens van één object, zoals deze gedurende een bepaalde periode bekend zijn bij het object. Oftewel, de gegevens van één object zoals opgenomen zijn in de BRK, zonder dat de gegevens een wijziging hebben ondergaan. Na elke wijziging ontstaan een nieuw voorkomen. De basis van elk vooromen zijn de BRK gegevens zelf, maar de historiegegevens zelf zijn ook onderdeel van het voorkomen (als metagegevens). 
+De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype `<<objecttype>>` en dat deze attribuutsoorten overerft van Historie::Voorkomen (`_VoorkomenOR` of `_VoorkomenNen3610` in de rechterbovenhoek van een object). Een voorkomen bevat de gegevens van één object, zoals deze gedurende een bepaalde periode bekend zijn bij het object. Oftewel, de gegevens van één object zoals opgenomen zijn in de BRK, zonder dat de gegevens een wijziging hebben ondergaan. Na elke wijziging ontstaan een nieuw voorkomen. De basis van elk vooromen zijn de BRK gegevens zelf, maar de historiegegevens zelf zijn ook onderdeel van het voorkomen (als metagegevens). 
 
 Een voorkomen/versie wordt uniek aangeduid met een combinatie van gegevens: 
 *	identificatie van het object 
