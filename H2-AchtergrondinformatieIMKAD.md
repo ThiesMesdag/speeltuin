@@ -5,7 +5,7 @@ Het informatiemodel van het kadaster beschrijft de basisgegevens van alle onroer
 
 <h3>Metamodel</h3>
 
-IMKAD is gemodelleerd volgens het MIM - Metamodel Informatie Modellering. Het model is voor het overzicht is onderverdeeld in z.g. “packages”, op basis van de inhoudelijke samenhang van de klassen. 
+IMKAD is gemodelleerd volgens het [MIM - Metamodel Informatie Modellering](https://docs.geostandaarden.nl/mim/mim10/). Het model is voor het overzicht is onderverdeeld in z.g. “packages”, op basis van de inhoudelijke samenhang van de klassen. 
 
 <h3>Samenhang met andere basisregistraties</h3>
 
@@ -24,7 +24,7 @@ Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk t
 
 ![Afbeelding van de package structuur in IMKAD](packagesImkad.png)
 
-De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als <<View>> Packages die modellen uit andere basisregistraties weergeven.
+De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als `<<View`>> Packages die modellen uit andere basisregistraties weergeven.
 
 <h3>Waardelijsten</h3>
 
@@ -32,6 +32,10 @@ In IMKAD worden voor een de gegevens met een vast waardebereik referentielijsten
 
 Waardelijsten gaan over inhoud, een informatiemodel vooral over structuur. Waardelijsten hebben ook een andere dynamiek dan het informatiemodel. Zo leidt bijvoorbeeld een gemeentelijke herindeling tot een aanpassing van de waardelijst ‘Nederlandse gemeenten’ zonder dat dit gevolgen heeft voor het informatiemodel. De IMKAD waardelijsten worden gepubliceerd op www.kadaster.nl/waardelijsten en zijn ook rechtstreeks te benaderen via de url in het informatiemodel.
 
+<h3>Het openbaar register en de Kadastrale registratie</h3>
+Binnen de BRK is er onderscheid te maken tussen het openbaar register en de Kadastrale registratie. Het openbaar register is een documentenregistatie waarin de aan het Kadaster ter inschrijving aangeboden stukken worden opgenomen. Dit zijn over het algemeen stukken die betrekking hebben op het overdragen en vestigen van zakelijke rechten op onroerende zaken. <br/>
+Met de informatie die in deze ingeschreven stukken staat wordt de Kadastrale registratie bijgewerkt naar de nieuwe juiste stand. In deze registratie wordt vastgelegd wie welke rechten heeft op een Kadastraal object. Een Kadastraal object is een [onroerende zaak](https://tax.kadaster.nl/doc/begrip/Onroerende_zaak) of een [teboekgestelde zaak](https://tax.kadaster.nl/doc/begrip/Teboekgestelde_zaak). In de BRK is een onroerende zaak een perceel, een appartementsrecht of een netwerk. De teboekgestelde zaken zijn schepen of luchtvaartuigen. Deze zijn echter niet opgenomen in het hier beschreven informatiemodel. 
+De Kadastrale registratie is de basis voor veel van de informatieproducten van het kadaster.
 
 <h3>Historie van BRK objecten.</h3>
 
