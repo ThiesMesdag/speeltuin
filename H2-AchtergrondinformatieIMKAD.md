@@ -24,7 +24,7 @@ Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk t
 
 ![Afbeelding van de package structuur in IMKAD](packagesImkad.png)
 
-De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als (view.png) packages die modellen uit andere basisregistraties weergeven.
+De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als ![Afbeelding van het view stereotype](view.png) packages die modellen uit andere basisregistraties weergeven.
 
 <h3>Waardelijsten</h3>
 
