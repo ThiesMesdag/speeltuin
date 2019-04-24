@@ -24,7 +24,7 @@ Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk t
 
 ![Afbeelding van de package structuur in IMKAD](packagesImkad.png)
 
-De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als `<<View`>> Packages die modellen uit andere basisregistraties weergeven.
+De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als `<<`View`>>` Packages die modellen uit andere basisregistraties weergeven.
 
 <h3>Waardelijsten</h3>
 
@@ -36,6 +36,8 @@ Waardelijsten gaan over inhoud, een informatiemodel vooral over structuur. Waard
 Binnen de BRK is er onderscheid te maken tussen het openbaar register en de Kadastrale registratie. Het openbaar register is een documentenregistatie waarin de aan het Kadaster ter inschrijving aangeboden stukken worden opgenomen. Dit zijn over het algemeen stukken die betrekking hebben op het overdragen en vestigen van zakelijke rechten op onroerende zaken. <br/>
 Met de informatie die in deze ingeschreven stukken staat wordt de Kadastrale registratie bijgewerkt naar de nieuwe juiste stand. In deze registratie wordt vastgelegd wie welke rechten heeft op een Kadastraal object. Een Kadastraal object is een [onroerende zaak](https://tax.kadaster.nl/doc/begrip/Onroerende_zaak) of een [teboekgestelde zaak](https://tax.kadaster.nl/doc/begrip/Teboekgestelde_zaak). In de BRK is een onroerende zaak een perceel, een appartementsrecht of een netwerk. De teboekgestelde zaken zijn schepen of luchtvaartuigen. Deze zijn echter niet opgenomen in het hier beschreven informatiemodel. 
 De Kadastrale registratie is de basis voor veel van de informatieproducten van het kadaster.
+
+In het informatiemodel wordt het openbaar register beschreven met het model in de package `<<`Stuk`>>`. De Kadastrale registratie wordt in de kern beschreven in het package `<<`Recht`>>` met als basis de packages `<<`KadastraalObject`>>`, `<<OnroerendeZaak`>> en `\<<Persoon>>`
 
 <h3>Historie van BRK objecten.</h3>
 
