@@ -4,9 +4,9 @@
       type="BASISMODEL"
       id="EAPK_CC12C25F_0CA9_45fc_B009_5DD7C33DAE8D"
       generator-version="1.52.4"
-      generator-date="2019-04-24T13:31:58Z">
+      generator-date="2019-04-25T12:23:58Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
-      <section type="IMAGEMAPS" name="-imagemap" id="imagemap_d121987e1">
+      <section type="IMAGEMAPS" name="-imagemap" id="imagemap_d122543e1">
          <section type="IMAGEMAP"
                   name="Informatiemodel Kadaster zonder stukdeel"
                   id="EAID_AD8227A5_48F8_418e_8770_65D1B3FF678A">
@@ -124,6 +124,10 @@
                            <item type="SUPPLIER">imkad/IMKAD/20190201</item>
                            <item>BRK</item>
                         </item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                           <item>BRK</item>
+                        </item>
                      </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
@@ -183,7 +187,11 @@
                            <item type="detail"
                                  idref="detail_attribute_KadastraalObject__KadastraalObject_identificatie">identificatie</item>
                         </item>
-                        <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                        </item>
                         <item>
                            <item type="global" idref="global_class_Typen_NEN3610ID">NEN3610ID</item>
                         </item>
@@ -510,7 +518,7 @@ Initieel 7.000.000</p>
                            <item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Kadaster</item>
+                                 <item>BRK</item>
                               </item>
                            </item>
                         </part>
@@ -519,13 +527,22 @@ Initieel 7.000.000</p>
                            <item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DATUMOPNAME">
                            <item>Datum opname</item>
@@ -631,7 +648,12 @@ Initieel 7.000.000</p>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
@@ -639,7 +661,12 @@ Initieel 7.000.000</p>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
                      <item>Datum opname</item>
@@ -824,11 +851,11 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                      <item>
                         <item type="TRACED">
                            <item type="SUPPLIER">imkad/IMKAD/20190201</item>
-                           <item>Inschrijving in de openbare registers van het Kadaster</item>
+                           <item>BRK</item>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Inschrijving in de openbare registers van het Kadaster.</item>
+                           <item>BRK</item>
                         </item>
                      </item>
                   </part>
@@ -846,14 +873,26 @@ uri https://tax.kadaster.nl/doc/begrip/Netwerk</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>uri http://brk.kadaster.nl/def/gegevenselement/Leidingnetwerk
-uri https://tax.kadaster.nl/doc/begrip/Netwerk</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">uri https://tax.kadaster.nl/doc/begrip/Netwerk</p>
+                           </item>
                         </item>
                      </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
                      <item>Datum opname</item>
@@ -957,7 +996,11 @@ uri https://tax.kadaster.nl/doc/begrip/Netwerk</item>
                            <item type="detail"
                                  idref="detail_attribute_OnroerendeZaak_Leidingnetwerk_hartlijn">hartlijn</item>
                         </item>
-                        <item>Leidingnetwerk.hartlijn is het geheel van gekoppelde lijnstukken die de ligging van een leidingnetwerk representeren.</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Leidingnetwerk.hartlijn is het geheel van gekoppelde lijnstukken die de ligging van een leidingnetwerk representeren. </p>
+                        </item>
                         <item>
                            <item type="global" idref="global_class_OnroerendeZaak_VlakOfMultikromme">VlakOfMultikromme</item>
                         </item>
@@ -968,7 +1011,11 @@ uri https://tax.kadaster.nl/doc/begrip/Netwerk</item>
                            <item type="detail"
                                  idref="detail_attribute_OnroerendeZaak_Leidingnetwerk_breedteNetwerkstrook">breedteNetwerkstrook</item>
                         </item>
-                        <item>Leidingnetwerk.breedteNetwerkstrook is de betrouwbaarheidsmarge rondom de hartlijn van het leidingnetwerk. Het opgegeven aantal centimeters wordt aan beide kanten van de hartlijn als marge gebruikt.</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Leidingnetwerk.breedteNetwerkstrook is de betrouwbaarheidsmarge rondom de hartlijn van het leidingnetwerk. Het opgegeven aantal centimeters wordt aan beide kanten van de hartlijn als marge gebruikt. </p>
+                        </item>
                         <item>
                            <item type="global">CHARACTERSTRING</item>
                         </item>
@@ -989,7 +1036,7 @@ uri https://tax.kadaster.nl/doc/begrip/Netwerk</item>
                               <item type="global" idref="global_class_OnroerendeZaak__OnroerendeZaak">_OnroerendeZaak</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Onroerende_zaak</item>
+                        <item/>
                      </part>
                   </content>
                   <content approach="target">
@@ -1004,7 +1051,7 @@ uri https://tax.kadaster.nl/doc/begrip/Netwerk</item>
                               <item type="global" idref="global_class_OnroerendeZaak__OnroerendeZaak">_OnroerendeZaak</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Onroerende_zaak</item>
+                        <item/>
                      </part>
                   </content>
                </section>
@@ -1035,24 +1082,43 @@ uri https://tax.kadaster.nl/doc/begrip/Netwerk</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
                      <item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Voorwaartse onroerende zaak filiatie geeft de relatie aan tussen een onroerende zaak en de onroerende zaken waarin hij is overgegaan.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Voorwaartse onroerende zaak filiatie geeft de relatie aan tussen een onroerende zaak en de onroerende zaken waarin hij is overgegaan.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
                      <item>Datum opname</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>2017-05</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-UNIEKEAANDUIDING">
                      <item>Unieke aanduiding</item>
@@ -1237,13 +1303,22 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>uri http://tax.kadaster.nl/id/begrip/Kadastrale_grens</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">uri http://tax.kadaster.nl/id/begrip/Kadastrale_grens</p>
+                           </item>
                         </item>
                      </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
                      <item>Datum opname</item>
@@ -1617,12 +1692,7 @@ attribuut de waarde 0.</p>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item>
-                        <item type="TRACED">
-                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>URI https://tax.kadaster.nl/doc/begrip/Onroerende_zaak</item>
-                        </item>
-                     </item>
+                     <item/>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -1701,7 +1771,14 @@ attribuut de waarde 0.</p>
                            <item type="detail"
                                  idref="detail_attribute_OnroerendeZaak__OnroerendeZaak_aardCultuurOnbebouwd">aardCultuurOnbebouwd</item>
                         </item>
-                        <item/>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">aardCultuurOnbebouwd is een aanduiding voor aard van het gebruik van een onbebouwde onroerende zaak. </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft de cultuuraanduiding zoals is omschreven in het brondocument. </p>
+                        </item>
                         <item>
                            <item type="global" idref="global_class_OnroerendeZaak_CultuurcodeOnbebouwd">CultuurcodeOnbebouwd</item>
                         </item>
@@ -1712,7 +1789,14 @@ attribuut de waarde 0.</p>
                            <item type="detail"
                                  idref="detail_attribute_OnroerendeZaak__OnroerendeZaak_aardCultuurBebouwd">aardCultuurBebouwd</item>
                         </item>
-                        <item/>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">aardCultuurBebouwd is een aanduiding voor aard van het gebruik van een bebouwde onroerende zaak. </p>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft de cultuuraanduiding zoals is omschreven in het brondocument. </p>
+                        </item>
                         <item>
                            <item type="global" idref="global_class_OnroerendeZaak_CultuurBebouwd">CultuurBebouwd</item>
                         </item>
@@ -2290,10 +2374,6 @@ attribuut de waarde 0.</p>
                      <item>Herkomst</item>
                      <item>
                         <item type="TRACED">
-                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
-                           <item>Meting in het veld.</item>
-                        </item>
-                        <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
                            <item>Kadaster</item>
                         </item>
@@ -2305,7 +2385,12 @@ attribuut de waarde 0.</p>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
                      <item>Datum opname</item>
@@ -2368,7 +2453,11 @@ attribuut de waarde 0.</p>
                            <item type="detail"
                                  idref="detail_attribute_OnroerendeZaak_Perceel_begrenzingPerceel">begrenzingPerceel</item>
                         </item>
-                        <item>Perceel.begrenzingPerceel is het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd.</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Perceel.begrenzingPerceel is het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd.</p>
+                        </item>
                         <item>
                            <item type="global" idref="global_class_Surface">GM_Surface</item>
                         </item>
@@ -2446,7 +2535,7 @@ attribuut de waarde 0.</p>
                               <item type="global" idref="global_class_OnroerendeZaak__OnroerendeZaak">_OnroerendeZaak</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Onroerende_zaak</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -2505,7 +2594,7 @@ attribuut de waarde 0.</p>
                               <item type="global" idref="global_class_OnroerendeZaak__OnroerendeZaak">_OnroerendeZaak</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Onroerende_zaak</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -2591,22 +2680,23 @@ attribuut de waarde 0.</p>
                      <item>Definitie</item>
                      <item>
                         <item type="TRACED">
-                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
                            <item>
                               <p xmlns="http://www.w3.org/1999/xhtml"
                                  xmlns:html="http://www.w3.org/1999/xhtml"
                                  xmlns:imvert="http://www.imvertor.org/schema/system">URL http://tax.kadaster.nl/id/begrip/Appartementsrecht</p>
                            </item>
                         </item>
-                        <item type="TRACED">
-                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>URL http://tax.kadaster.nl/id/begrip/Appartementsrecht</item>
-                        </item>
                      </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
                      <item>Datum opname</item>
@@ -2666,7 +2756,7 @@ attribuut de waarde 0.</p>
                               <item type="global" idref="global_class_OnroerendeZaak__OnroerendeZaak">_OnroerendeZaak</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Onroerende_zaak</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -2696,7 +2786,7 @@ attribuut de waarde 0.</p>
                               <item type="global" idref="global_class_OnroerendeZaak__OnroerendeZaak">_OnroerendeZaak</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Onroerende_zaak</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -2718,9 +2808,13 @@ attribuut de waarde 0.</p>
                <section type="EXPLANATION">
                   <content>
                      <part>
-                        <item>Kadastrale aanduiding authentiek volgens de BRK
-Plaatselijke aanduiding (adres) authentiek volgens de BAG.
-Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Kadastrale aanduiding authentiek volgens de BRK
+Plaatselijke aanduiding (adres) authentiek volgens de BAG. 
+Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</p>
+                        </item>
                      </part>
                   </content>
                </section>
@@ -2743,11 +2837,25 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst CultuurOnbebouwd is een opsomming van de mogelijke waarden voor de aard van het gebruik van een onbebouwde onroerende zaak. </p>
+                           </item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -2818,11 +2926,25 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst AardFiliatie is een opsomming van de mogelijke waarden voor de aard of reden van de filiatie van een onroerende zaak.</p>
+                           </item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -2893,11 +3015,25 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst KadastraleGemeente is een opsomming van de mogelijke Kadastrale gemeenten. </p>
+                           </item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -2968,11 +3104,25 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst AardLeidingnetwerk is een opsomming van de mogelijke waarden voor de aard van een leidingnetwerk. </p>
+                           </item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -3043,11 +3193,25 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst TypeGrens is een opsomming van de mogelijke typen grens.</p>
+                           </item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -3118,11 +3282,25 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst CultuurBebouwd is een opsomming van de mogelijke waarden voor de aard van het gebruik van een bebouwde onroerende zaak. </p>
+                           </item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -3193,11 +3371,25 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst SoortGrootte is een opsomming van de mogelijke typen soorten van de grootte van een perceel.</p>
+                           </item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -3270,7 +3462,12 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
@@ -3281,14 +3478,15 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                               <p xmlns="http://www.w3.org/1999/xhtml"
                                  xmlns:html="http://www.w3.org/1999/xhtml"
                                  xmlns:imvert="http://www.imvertor.org/schema/system">Een datatype waarin gekozen kan worden tussen een vlak en een multikromme. </p>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De begrenzing van een leidingnetwerk kan zowel lijnvormig als vlakvormig worden beschreven. Lijnvormig houdt in dat het leidingnetwerk bestaat uit een netwerk van lijnketens, die onderling minimaal een punt in de keten gemeenschappelijk hebben. Vlakvormig houdt in dat de lijnketens onderling zodanig met elkaar zijn verbonden dat een vlakvormige figuur (polylijn) is af te leiden. In het lijnvormige geval kan ook de strookbreedte, waarbinnen de grenslijn ligt, zijn opgenomen. In zo'n geval is, indien nodig, een vlakvormige figuur te berekenen.</p>
                            </item>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>De begrenzing van een leidingnetwerk kan zowel lijnvormig als vlakvormig worden beschreven. Lijnvormig houdt in dat het leidingnetwerk bestaat uit een netwerk van lijnketens, die onderling minimaal een punt in de keten gemeenschappelijk hebben. Vlakvormig houdt in dat de lijnketens onderling zodanig met elkaar zijn verbonden dat een vlakvormige figuur (polylijn) is af te leiden. In het lijnvormige geval kan ook de strookbreedte, waarbinnen de grenslijn ligt, zijn opgenomen. In zo'n geval is, indien nodig, een vlakvormige figuur te berekenen.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De begrenzing van een leidingnetwerk kan zowel lijnvormig als vlakvormig worden beschreven. Lijnvormig houdt in dat het leidingnetwerk bestaat uit een netwerk van lijnketens, die onderling minimaal een punt in de keten gemeenschappelijk hebben. Vlakvormig houdt in dat de lijnketens onderling zodanig met elkaar zijn verbonden dat een vlakvormige figuur (polylijn) is af te leiden. In het lijnvormige geval kan ook de strookbreedte, waarbinnen de grenslijn ligt, zijn opgenomen. In zo'n geval is, indien nodig, een vlakvormige figuur te berekenen.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -3343,6 +3541,17 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                            <item type="global" idref="global_class_Surface">GM_Surface</item>
                         </item>
                         <item>1</item>
+                     </part>
+                  </content>
+               </section>
+               <section type="EXPLANATION">
+                  <content>
+                     <part>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De begrenzing van een leidingnetwerk kan zowel lijnvormig als vlakvormig worden beschreven. Lijnvormig houdt in dat het leidingnetwerk bestaat uit een netwerk van lijnketens, die onderling minimaal een punt in de keten gemeenschappelijk hebben. Vlakvormig houdt in dat de lijnketens onderling zodanig met elkaar zijn verbonden dat een vlakvormige figuur (polylijn) is af te leiden. In het lijnvormige geval kan ook de strookbreedte, waarbinnen de grenslijn ligt, zijn opgenomen. In zo'n geval is, indien nodig, een vlakvormige figuur te berekenen.</p>
+                        </item>
                      </part>
                   </content>
                </section>
@@ -3544,24 +3753,24 @@ Ovberige gegevens zijn niet authentiek, maar wel basisgegeven.</item>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>
                               <item type="TRACED">
-                                 <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
                                  <item>
                                     <p xmlns="http://www.w3.org/1999/xhtml"
                                        xmlns:html="http://www.w3.org/1999/xhtml"
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Een aanduiding voor de aard van de filiatie.
 Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak (historisch) tot stand gekomen is. Het geeft aan waarom het ene kadastrale object gerelateerd is aan het andere.</p>
                                  </item>
-                              </item>
-                              <item type="TRACED">
-                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een aanduiding voor de aard van de filiatie.
-Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak (historisch) tot stand gekomen is. Het geeft aan waarom het ene kadastrale object gerelateerd is aan het andere.</item>
                               </item>
                            </item>
                         </part>
@@ -3639,7 +3848,12 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
@@ -3654,7 +3868,11 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De oppervlakte van het gedeelte van de oude Onroerende zaak dat opgegaan is in de nieuwe Onroerende zaak. De overgangsgrootte heeft uitsluitend betrekking op Onroerende zaak van het soort Perceel.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van het gedeelte van de oude Onroerende zaak dat opgegaan is in de nieuwe Onroerende zaak. De overgangsgrootte heeft uitsluitend betrekking op Onroerende zaak van het soort Perceel.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -3895,7 +4113,11 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Leidingnetwerk.aard is een aanduiding van het soort leidingnetwerk.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Leidingnetwerk.aard is een aanduiding van het soort leidingnetwerk.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -3973,22 +4195,23 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>
                               <item type="TRACED">
-                                 <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
                                  <item>
                                     <p xmlns="http://www.w3.org/1999/xhtml"
                                        xmlns:html="http://www.w3.org/1999/xhtml"
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Leidingnetwerk.omschrijving is een omschrijving van het netwerk door de eigenaar. </p>
                                  </item>
-                              </item>
-                              <item type="TRACED">
-                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Leidingnetwerk.omschrijving is een omschrijving van het netwerk door de eigenaar.</item>
                               </item>
                            </item>
                         </part>
@@ -4077,22 +4300,23 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>
                               <item type="TRACED">
-                                 <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
                                  <item>
                                     <p xmlns="http://www.w3.org/1999/xhtml"
                                        xmlns:html="http://www.w3.org/1999/xhtml"
                                        xmlns:imvert="http://www.imvertor.org/schema/system">Leidingnetwerk.begrenzing is de begrenzing van het netwerk als polygoon</p>
                                  </item>
-                              </item>
-                              <item type="TRACED">
-                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Leidingnetwerk.begrenzing is de begrenzing van het netwerk als polygoon</item>
                               </item>
                            </item>
                         </part>
@@ -4181,20 +4405,34 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Leidingnetwerk.hartlijn is het geheel van gekoppelde lijnstukken die de ligging van een leidingnetwerk representeren.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Leidingnetwerk.hartlijn is het geheel van gekoppelde lijnstukken die de ligging van een leidingnetwerk representeren. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DATUMOPNAME">
                            <item>Datum opname</item>
@@ -4266,20 +4504,34 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
                            <item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Leidingnetwerk.breedteNetwerkstrook is de betrouwbaarheidsmarge rondom de hartlijn van het leidingnetwerk. Het opgegeven aantal centimeters wordt aan beide kanten van de hartlijn als marge gebruikt.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Leidingnetwerk.breedteNetwerkstrook is de betrouwbaarheidsmarge rondom de hartlijn van het leidingnetwerk. Het opgegeven aantal centimeters wordt aan beide kanten van de hartlijn als marge gebruikt. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DATUMOPNAME">
                            <item>Datum opname</item>
@@ -4372,8 +4624,12 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een aanduiding voor de aard van de filiatie.
-Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak (historisch) tot stand gekomen is. Het geeft aan waarom het ene kadastrale object gerelateerd is aan het andere.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Een aanduiding voor de aard van de filiatie.
+Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak (historisch) tot stand gekomen is. Het geeft aan waarom het ene kadastrale object gerelateerd is aan het andere.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -4466,7 +4722,11 @@ Onroerende zaak filiatie wordt gebruikt om aan te geven hoe een onroerende zaak 
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De oppervlakte van het gedeelte van de oude Onroerende zaak dat opgegaan is in de nieuwe Onroerende zaak. De overgangsgrootte heeft uitsluitend betrekking op Onroerende zaak van het soort Perceel.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van het gedeelte van de oude Onroerende zaak dat opgegaan is in de nieuwe Onroerende zaak. De overgangsgrootte heeft uitsluitend betrekking op Onroerende zaak van het soort Perceel.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -5311,7 +5571,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -5404,17 +5668,31 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Kadastralegrens.type geeft aan of het een definitieve, voorlopige of administratieve grens betreft.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Kadastralegrens.type geeft aan of het een definitieve, voorlopige of administratieve grens betreft. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DATUMOPNAME">
                            <item>Datum opname</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>2007</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -5482,7 +5760,12 @@ attribuut de waarde 0.</p>
                         </part>
                         <part type="CFG-DOC-HERKOMST">
                            <item>Herkomst</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
@@ -5497,17 +5780,31 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een grenslijn is of een lijn (GML LineString), of een boog (GML ArcString).</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Een grenslijn is of een lijn (GML LineString), of een boog (GML ArcString).</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>BRK</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-DATUMOPNAME">
                            <item>Datum opname</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                                 <item>2007</item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -6570,7 +6867,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De rente die berekend wordt over de percelen die in een herverkavelingblok van een landinrichtingsproject hebben gelegen. Deze rente wordt berekend om de niet gesubsidieerde kosten van het herverkavelingproject te dekken.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De rente die berekend wordt over de percelen die in een herverkavelingblok van een landinrichtingsproject hebben gelegen. Deze rente wordt berekend om de niet gesubsidieerde kosten van het herverkavelingproject te dekken.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -6674,8 +6975,14 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet.
-Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet. </p>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Let op: Het bedrag is in AKR in euro-centen opgenomen!</p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -6773,7 +7080,11 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>Het laatste kalenderjaar waarin de rente in het kader van landinrichtingswet nog verschuldigd is.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Het laatste kalenderjaar waarin de rente in het kader van landinrichtingswet nog verschuldigd is.</p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -6861,7 +7172,19 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">aardCultuurOnbebouwd is een aanduiding voor aard van het gebruik van een onbebouwde onroerende zaak. </p>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft de cultuuraanduiding zoals is omschreven in het brondocument. </p>
+                                 </item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
@@ -6950,7 +7273,19 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                         </part>
                         <part type="CFG-DOC-DEFINITIE">
                            <item>Definitie</item>
-                           <item/>
+                           <item>
+                              <item type="TRACED">
+                                 <item type="SUPPLIER">imkad/IMKAD/20190201</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">aardCultuurBebouwd is een aanduiding voor aard van het gebruik van een bebouwde onroerende zaak. </p>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft de cultuuraanduiding zoals is omschreven in het brondocument. </p>
+                                 </item>
+                              </item>
+                           </item>
                         </part>
                         <part type="CFG-DOC-HERKOMSTDEFINITIE">
                            <item>Herkomst definitie</item>
@@ -7216,7 +7551,11 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De koopsom is het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen, alsmede het koopjaar (Het jaar van overdracht waarbij deze koopsom bij deze onroerende zaak in de akte is vermeld.) en een indicator of het meerdere onroerende goederen betreft. Koopsom is altijd een positief bedrag. Dit is een bedrag (omgerekend naar) euro's.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De koopsom is het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen, alsmede het koopjaar (Het jaar van overdracht waarbij deze koopsom bij deze onroerende zaak in de akte is vermeld.) en een indicator of het meerdere onroerende goederen betreft. Koopsom is altijd een positief bedrag. Dit is een bedrag (omgerekend naar) euro's. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -7320,7 +7659,11 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen. Koopsom is altijd een positief bedrag. Dit is een bedrag (omgerekend naar) euro's.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen. Koopsom is altijd een positief bedrag. Dit is een bedrag (omgerekend naar) euro's. </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -7421,7 +7764,11 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>Het jaar waarin het belangrijkste recht van het kadastraal object is verkregen.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Het jaar waarin het belangrijkste recht van het kadastraal object is verkregen.</p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -7518,7 +7865,11 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>Geeft aan of de koopsom betrekking heeft op meer dan 1 kadastraal object.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Geeft aan of de koopsom betrekking heeft op meer dan 1 kadastraal object.</p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -8102,7 +8453,11 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                            <item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Perceel.begrenzingPerceel is het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Perceel.begrenzingPerceel is het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -8171,9 +8526,13 @@ Let op: Het bedrag is in AKR in euro-centen opgenomen!</item>
                      <section type="EXPLANATION">
                         <content>
                            <part>
-                              <item>Een Perceel is een (2D) vlakvormig ruimtelijk object dat "opdelend" van structuur is. Dit betekent dat Nederland altijd naadloos en volledig is bedekt met perceelsvlakken, die elkaar niet mogen overlappen. De begrenzing van een perceel bestaat uit één of meer Kaartbegrenzingen (gesloten polylijnen). De buitenomtrek wordt altijd door één Kaartbegrenzing gevormd. Indien er enclaves zijn (gebied dat niet tot het perceelsvlak behoort) zijn ook de binnenomtrekken als kaartbegrenzing opgenomen. Elk Perceel wordt begrensd door andere percelen, uitgezonderd diegenen die aan buitenland (Belgie, Duitsland en Noordzee) grenzen. Een Kaartbegrenzing is opgebouwd uit één of meer Kaartlijnen (lijnketens). Elke niet onderbroken begrenzing tussen precies 2 percelen noemen we een Kaartlijn. De topologische relatie tussen 2 vlakbegrenzingen van aangrenzende percelen wordt afgedwongen doordat hun gemeenschappelijke begrenzing door dezelfde Kaartlijn wordt gevormd.
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">Een Perceel is een (2D) vlakvormig ruimtelijk object dat "opdelend" van structuur is. Dit betekent dat Nederland altijd naadloos en volledig is bedekt met perceelsvlakken, die elkaar niet mogen overlappen. De begrenzing van een perceel bestaat uit één of meer Kaartbegrenzingen (gesloten polylijnen). De buitenomtrek wordt altijd door één Kaartbegrenzing gevormd. Indien er enclaves zijn (gebied dat niet tot het perceelsvlak behoort) zijn ook de binnenomtrekken als kaartbegrenzing opgenomen. Elk Perceel wordt begrensd door andere percelen, uitgezonderd diegenen die aan buitenland (Belgie, Duitsland en Noordzee) grenzen. Een Kaartbegrenzing is opgebouwd uit één of meer Kaartlijnen (lijnketens). Elke niet onderbroken begrenzing tussen precies 2 percelen noemen we een Kaartlijn. De topologische relatie tussen 2 vlakbegrenzingen van aangrenzende percelen wordt afgedwongen doordat hun gemeenschappelijke begrenzing door dezelfde Kaartlijn wordt gevormd.
 Een Kaartlijn ofwel lijnketen is opgebouwd uit opeenvolgend aansluitende kaartlijndelen, bestaande uit rechte en cirkelboogvormige lijnstukken.
-Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggende vlakken) voorkomen, doet dit aan de definitie van Begrenzing perceel niets af.</item>
+Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggende vlakken) voorkomen, doet dit aan de definitie van Begrenzing perceel niets af. </p>
+                              </item>
                            </part>
                         </content>
                      </section>
@@ -8309,8 +8668,13 @@ Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggend
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Perceel.plaatscoordinaten is de aanduiding van een kaartpunt voor de weergave van de identificatie van een perceel (centroïde).
-Door de keuze van het nulpunt geldt dat zowel de x-coordinaat als de y-coordinaat altijd positief zijn.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Perceel.plaatscoordinaten is de aanduiding van een kaartpunt voor de weergave van de identificatie van een perceel (centroïde).
+Door de keuze van het nulpunt geldt dat zowel de x-coordinaat als de y-coordinaat altijd positief zijn.<br clear="none"/>
+                                    </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -8418,7 +8782,11 @@ Door de keuze van het nulpunt geldt dat zowel de x-coordinaat als de y-coordinaa
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Perceel.perceelnummerVerschuiving is de locatie waar het perceelnummer naar toe verschoven is voor een betere leesbaarheid. Dit gegeven bevat de coördinaten voor het verschuiven van het perceelnummer op de kaart naar een locatie waar meer ruimte is om het nummer af te beelden.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Perceel.perceelnummerVerschuiving is de locatie waar het perceelnummer naar toe verschoven is voor een betere leesbaarheid. Dit gegeven bevat de coördinaten voor het verschuiven van het perceelnummer op de kaart naar een locatie waar meer ruimte is om het nummer af te beelden. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -8522,7 +8890,11 @@ Door de keuze van het nulpunt geldt dat zowel de x-coordinaat als de y-coordinaa
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Perceel.perceelnummerRotatie is de rotatie van het perceelnummer ten behoeve van afbeelding op de kaart. Perceelnummers worden bijvoorbeeld gekanteld om in een smal perceel te passen.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Perceel.perceelnummerRotatie is de rotatie van het perceelnummer ten behoeve van afbeelding op de kaart. Perceelnummers worden bijvoorbeeld gekanteld om in een smal perceel te passen. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -8854,8 +9226,14 @@ Door de keuze van het nulpunt geldt dat zowel de x-coordinaat als de y-coordinaa
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De kadastrale gemeente, deel van de kadastrale aanduiding van de onroerende zaak. De waarden komen uit een Waardelijst.
-Er zijn 1111 kadastrale gemeentenamen. Elke kadastrale gemeentenaam is uniek.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De kadastrale gemeente, deel van de kadastrale aanduiding van de onroerende zaak. De waarden komen uit een Waardelijst.</p>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Er zijn 1111 kadastrale gemeentenamen. Elke kadastrale gemeentenaam is uniek.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -8928,8 +9306,14 @@ Er zijn 1111 kadastrale gemeentenamen. Elke kadastrale gemeentenaam is uniek.</i
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Sectie is een onderverdeling van de kadastrale gemeente, bedoeld om het werk van de meetdienst en de kadastrale kaarten overzichtelijk te houden.
-Per kadastrale gemeente zijn er max. 26x26 secties . Elke sectie heeft een of twee letters (bijv. "A", 'B', ....'AA', 'AB', ....'ZZ' . Alleen de sectieletter "J" werd niet gebruikt om verwarring (handgeschreven) te voorkomen met "I"</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Sectie is een onderverdeling van de kadastrale gemeente, bedoeld om het werk van de meetdienst en de kadastrale kaarten overzichtelijk te houden. </p>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Per kadastrale gemeente zijn er max. 26x26 secties . Elke sectie heeft een of twee letters (bijv. "A", 'B', ....'AA', 'AB', ....'ZZ' . Alleen de sectieletter "J" werd niet gebruikt om verwarring (handgeschreven) te voorkomen met "I"</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -9002,8 +9386,14 @@ Per kadastrale gemeente zijn er max. 26x26 secties . Elke sectie heeft een of tw
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie.
-Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplopend door de jaren heen van "00001" tot max "99999"</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie. </p>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplopend door de jaren heen van "00001" tot max "99999"</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -9073,7 +9463,11 @@ Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplope
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -9139,7 +9533,11 @@ Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplope
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Verschuiving op de X as.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Verschuiving op de X as.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -9200,7 +9598,11 @@ Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplope
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Verschuiving op de Y as.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Verschuiving op de Y as.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -9266,7 +9668,11 @@ Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplope
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Oppervlak grootte, in vierkante meters.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Oppervlak grootte, in vierkante meters. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -9341,7 +9747,11 @@ Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplope
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De soortGrootte geeft aan of de grootte van het perceel voorlopig, administratief of definitief is vastgesteld.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De soortGrootte geeft aan of de grootte van het perceel voorlopig, administratief of definitief is vastgesteld. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -9448,12 +9858,7 @@ Per kadastrale gemeente en per sectie heeft een perceel een perceelnummer oplope
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item>
-                        <item type="TRACED">
-                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>URI https://tax.kadaster.nl/doc/begrip/Erfpachtcanon</item>
-                        </item>
-                     </item>
+                     <item/>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -9843,7 +10248,11 @@ attribuut de waarde 0.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een zekerheidsstelling is een hypotheek of een beslag</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een zekerheidsstelling is een hypotheek of een beslag</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -10328,7 +10737,11 @@ Initieel 4.600.000</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een Hoofdsplitsing is het gesplitste Zakelijk recht van 1 of meer Percelen.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een Hoofdsplitsing is het gesplitste Zakelijk recht van 1 of meer Percelen.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -10456,8 +10869,14 @@ Initieel 4.600.000</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>TenaamstellingFiliatie geeft aan uit welke inmiddels vervallen Tenaamstellingen de Tenaamstelling is ontstaan .
-TenaamstellingFiliatie wordt gebruikt om aan te geven hoe een recht (historisch) tot stand gekomen is. Het geeft aan waarom de ene Tenaamstelling gerelateerd is aan de andere. Dit doet zicht voor bij het ambtshalve samenvoegen van Rechten, bij vererving, naamswijziging etc.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">TenaamstellingFiliatie geeft aan uit welke inmiddels vervallen Tenaamstellingen de Tenaamstelling is ontstaan .</p>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">TenaamstellingFiliatie wordt gebruikt om aan te geven hoe een recht (historisch) tot stand gekomen is. Het geeft aan waarom de ene Tenaamstelling gerelateerd is aan de andere. Dit doet zicht voor bij het ambtshalve samenvoegen van Rechten, bij vererving, naamswijziging etc.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -10625,7 +11044,11 @@ Aard kan zijn Samengevoegd of Vervangen op grond van een nieuw rechtsfeit.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een appartementsrechtsplitsing is het in appartementsrechten gesplitste Zakelijk recht van 1 of meer kadastrale objecten. Zie ook: https://tax.kadaster.nl/doc/begrip/Splitsing_eigendom_in_appartementsrechten</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een appartementsrechtsplitsing is het in appartementsrechten gesplitste Zakelijk recht van 1 of meer kadastrale objecten. Zie ook: https://tax.kadaster.nl/doc/begrip/Splitsing<em>eigendom</em>in_appartementsrechten</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -12026,7 +12449,11 @@ attribuut de waarde 0.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>GezamenlijkAandeel is wanneer twee of meer personen een gezamenlijk aandeel hebben in een zakelijk recht, waarbij het afzonderlijke aandeel in het gezamenlijk aandeel niet bekend is (als gezamenlijkAandeel bekend is dan is het individuele aandeel niet bekend en omgekeerd).</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">GezamenlijkAandeel is wanneer twee of meer personen een gezamenlijk aandeel hebben in een zakelijk recht, waarbij het afzonderlijke aandeel in het gezamenlijk aandeel niet bekend is (als gezamenlijkAandeel bekend is dan is het individuele aandeel niet bekend en omgekeerd).</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -13315,8 +13742,12 @@ Zie ook: https://brk.basisregistraties.overheid.nl/doc/begrip/Splitsing<em>appar
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een ondersplitsing is het ondergesplitste zakelijk recht van een appartementsrecht.
-Zie ook: https://brk.basisregistraties.overheid.nl/doc/begrip/Splitsing_appartementsrecht_in_appartementsrechten</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een ondersplitsing is het ondergesplitste zakelijk recht van een appartementsrecht. 
+Zie ook: https://brk.basisregistraties.overheid.nl/doc/begrip/Splitsing<em>appartementsrecht</em>in_appartementsrechten</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -13449,7 +13880,11 @@ Zie ook: https://brk.basisregistraties.overheid.nl/doc/begrip/Splitsing_appartem
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>SpiegelsplitsingOndersplitsing is een spiegelsplitsing afkoop erfpacht van een ondersplitsing.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">SpiegelsplitsingOndersplitsing is een spiegelsplitsing afkoop erfpacht van een ondersplitsing.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -13572,7 +14007,11 @@ Zie ook: https://brk.basisregistraties.overheid.nl/doc/begrip/Splitsing_appartem
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een tenaamstelling is een registratie van (een aandeel in) een zakelijk recht dat een persoon heeft, dat rust op een kadastraal object.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een tenaamstelling is een registratie van (een aandeel in) een zakelijk recht dat een persoon heeft, dat rust op een kadastraal object.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -15721,7 +16160,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -15814,7 +16257,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Erfpachtcanon.Soort is een nadere aanduiding van de erfpachtcanon.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Erfpachtcanon.Soort is een nadere aanduiding van de erfpachtcanon. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -15932,7 +16379,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Jaarlijksbedrag is het bedrag dat jaarlijks als erpachtcanon moet worden betaald.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Jaarlijksbedrag is het bedrag dat jaarlijks als erpachtcanon moet worden betaald.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -16121,7 +16572,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Met deze indicatie wordt aangegeven dat de erfpacht oorspronkelijk gevestigd is bij een perceel dat later is verenigd met een ander perceel.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Met deze indicatie wordt aangegeven dat de erfpacht oorspronkelijk gevestigd is bij een perceel dat later is verenigd met een ander perceel. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -17214,7 +17669,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -18167,9 +18626,13 @@ Aard kan zijn Samengevoegd of Vervangen op grond van een nieuw rechtsfeit.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Aanduiding voor de aard van de filiatie.
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Aanduiding voor de aard van de filiatie.
 Tenaamstellingfiliatie wordt gebruikt om aan te geven hoe een recht (historisch) tot stand gekomen is. Het geeft aan waarom de ene tenaamstelling gerelateerd is aan het andere.
-Aard kan zijn Samengevoegd of Vervangen op grond van een nieuw rechtsfeit.</item>
+Aard kan zijn Samengevoegd of Vervangen op grond van een nieuw rechtsfeit.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -19007,7 +19470,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -20095,7 +20562,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -20188,7 +20659,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een aanduiding voor de aard van het recht. De waarden zijn opgenomen in een waardelijst.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Een aanduiding voor de aard van het recht. De waarden zijn opgenomen in een waardelijst.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -21612,7 +22087,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>BetreftGedeelteVanPerceel is een indicatie om aan te geven dat de ZekerheidsstellingHypothecair betrekking heeft op een gedeelte van het perceel, al dan niet op basis van een ingeschreven tekening.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">BetreftGedeelteVanPerceel is een indicatie om aan te geven dat de ZekerheidsstellingHypothecair betrekking heeft op een gedeelte van het perceel, al dan niet op basis van een ingeschreven tekening. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -22459,7 +22938,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -22557,7 +23040,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Waarde van het aandeel, bijv. 1/2.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Waarde van het aandeel, bijv. 1/2.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -23270,7 +23757,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -24378,7 +24869,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -24471,7 +24966,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Aard is een aanduiding voor de soort van de aantekening.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Aard is een aanduiding voor de soort van de aantekening.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -24575,7 +25074,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Omschrijving is de nadere beschrijving van de aantekening.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Omschrijving is de nadere beschrijving van de aantekening.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -24668,7 +25171,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Begrenzing beschrijft de omtrek van het gebied waarop de aantekening betrekking heeft.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Begrenzing beschrijft de omtrek van het gebied waarop de aantekening betrekking heeft.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -24761,7 +25268,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Begrenzing beschrijft de omtrek van het dienend erf waarop de aantekening betrekking heeft.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Begrenzing beschrijft de omtrek van het dienend erf waarop de aantekening betrekking heeft.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -24854,7 +25365,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Begrenzing beschrijft de omtrek van het heersend erf waarop de aantekening betrekking heeft.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Begrenzing beschrijft de omtrek van het heersend erf waarop de aantekening betrekking heeft.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -24947,7 +25462,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Einddatum is de datum waarop de geldigheid van de aantekening eindigt.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Einddatum is de datum waarop de geldigheid van de aantekening eindigt.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -25051,7 +25570,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>EinddatumRecht is de datum waarop een recht eindigt.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">EinddatumRecht is de datum waarop een recht eindigt. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -25163,7 +25686,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een indicatieOorspronkelijkObject is een indicator die aanduidt of bekend is op welk kadastraal object een aantekening oorspronkelijk betrekking heeft.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Een  indicatieOorspronkelijkObject is een indicator die aanduidt of bekend is op welk kadastraal object een aantekening oorspronkelijk betrekking heeft.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -25270,10 +25797,14 @@ NaamKavelruil is de naam die in een Kavelruilovereenkomst is genoemd als aanduid
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Definitie:
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Definitie:
 Naam kavelruil is een aanduiding voor een kavelruil, zoals vermeld in de in de openbare registers ingeschreven kavelruilovereenkomst.
 Een kavelruilovereenkomst is een overeenkomst is een ruilverkaveling krachtens overeenkomst ('kavelruil'), als bedoeld in hoofdstuk 9 van de Wet inrichting landelijk gebied (Wilg)
-NaamKavelruil is de naam die in een Kavelruilovereenkomst is genoemd als aanduiding voor het kavelruilproject.</item>
+NaamKavelruil is de naam die in een Kavelruilovereenkomst is genoemd als aanduiding voor het kavelruilproject.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -26847,7 +27378,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De Kadaster identificatie is een door het Kadaster toegekend landelijk uniek nummer aan dit object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -28576,7 +29111,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Het aantal delen. De teller is altijd lager dan de noemer.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal delen. De teller is altijd lager dan de noemer.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -28637,7 +29176,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De noemer van het deel.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De noemer van het deel.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -28730,7 +29273,11 @@ attribuut de waarde 0.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een stukdeel is een paragraaf in een akte waarmee een recht gevestigd wordt.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een stukdeel is een paragraaf in een akte waarmee een recht gevestigd wordt.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -29646,7 +30193,11 @@ Voorbeelden zijn:</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een stuk is een, door het Kadaster als authentiek erkend, document waaruit een wijziging in de BRK blijkt.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een stuk is een, door het Kadaster als authentiek erkend, document waaruit een wijziging in de BRK blijkt.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -30630,7 +31181,11 @@ Groei per jaar 60.000</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>uri https://tax.kadaster.nl/doc/begrip/Kadaster_verzoek</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">uri https://tax.kadaster.nl/doc/begrip/Kadaster_verzoek</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -32547,7 +33102,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -32806,9 +33365,17 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Het bedrag waarvoor beslag is gelegd. Indien bij een beslag verschillende bedragen voorkomen, dan worden deze bedragen getotaliseerd. Dit is dan aangegeven in het aard attribuut van Bedrag.
-Bestaat uit bedrag vordering, met bedrag en valutasoort, en indicatie verschillende bedragen.
-De vordering is bij het stukdeel (en dus het rechtsfeit) opgenomen en niet bij het beslag omdat het gegeven geldt per feit.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het bedrag waarvoor beslag is gelegd. Indien bij een beslag verschillende bedragen voorkomen, dan worden deze bedragen getotaliseerd. Dit is dan aangegeven in het aard attribuut van Bedrag. </p>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Bestaat uit bedrag vordering, met bedrag en valutasoort, en indicatie verschillende bedragen. </p>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De vordering is bij het stukdeel (en dus het rechtsfeit) opgenomen en niet bij het beslag omdat het gegeven geldt per feit. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -33141,7 +33708,11 @@ De vordering is bij het stukdeel (en dus het rechtsfeit) opgenomen en niet bij h
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De beschrijving van de Topografische mutatie zoals in het Stuk vermeld.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De beschrijving van de Topografische mutatie zoals in het Stuk vermeld.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -34278,7 +34849,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -34371,7 +34946,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Omschrijving van de belangrijkste soort rechtshandeling wat is vermeld in het stuk. De waarden zijn opgenomen in een Waardelijst.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Omschrijving van de belangrijkste soort rechtshandeling wat is vermeld in het stuk. De waarden zijn opgenomen in een Waardelijst.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -34873,7 +35452,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Er is sprake van een appartementstekening (splitsingstekening van appartementen) als bijlage bij het stuk.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Er is sprake van een appartementstekening (splitsingstekening van appartementen) als bijlage bij het stuk.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -34967,7 +35550,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een ondertekenaar is een persoon die bevoegd is een akte op te maken en een afschrift daarvan equivalent te verklaren.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Een ondertekenaar is een persoon die bevoegd is een akte op te maken en een afschrift daarvan equivalent te verklaren.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -35074,7 +35661,12 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De verzameling van een of meer naamgegevens, ter onderscheiding van personen met dezelfde achternaam, (rechtens) aan een persoon gegeven of -indien hiervan sprake is- door hem gekozen.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De verzameling van een of meer naamgegevens, ter onderscheiding van personen met dezelfde achternaam, (rechtens) aan een persoon gegeven of -indien hiervan sprake is- door hem gekozen.<br clear="none"/>
+                                       </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -35167,7 +35759,12 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De verzameling van een of meer voorzetsels en/of lidwoorden die aan de geslachtsnaam vooraf gaat en daarmee de gezamenlijk de achternaam vormt.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De verzameling van een of meer voorzetsels en/of lidwoorden die aan de geslachtsnaam vooraf gaat en daarmee de gezamenlijk de achternaam vormt.<br clear="none"/>
+                                       </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -35259,7 +35856,11 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De naamgegevens van een natuurlijk persoon, met uitzondering van de voornamen en eventuele voorvoegsels.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De naamgegevens van een natuurlijk persoon, met uitzondering van de voornamen en eventuele voorvoegsels. </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -35352,7 +35953,12 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>Adres of standplaats/plaats van vestiging van de ondertekenaar.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Adres of standplaats/plaats van vestiging van de ondertekenaar.<br clear="none"/>
+                                       </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -35443,7 +36049,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een ondertekenaar is een persoon die bevoegd is een akte op te maken en een afschrift daarvan equivalent te verklaren.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Een ondertekenaar is een persoon die bevoegd is een akte op te maken en een afschrift daarvan equivalent te verklaren.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -35550,7 +36160,12 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De verzameling van een of meer naamgegevens, ter onderscheiding van personen met dezelfde achternaam, (rechtens) aan een persoon gegeven of -indien hiervan sprake is- door hem gekozen.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De verzameling van een of meer naamgegevens, ter onderscheiding van personen met dezelfde achternaam, (rechtens) aan een persoon gegeven of -indien hiervan sprake is- door hem gekozen.<br clear="none"/>
+                                       </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -35643,7 +36258,12 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De verzameling van een of meer voorzetsels en/of lidwoorden die aan de geslachtsnaam vooraf gaat en daarmee de gezamenlijk de achternaam vormt.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De verzameling van een of meer voorzetsels en/of lidwoorden die aan de geslachtsnaam vooraf gaat en daarmee de gezamenlijk de achternaam vormt.<br clear="none"/>
+                                       </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -35735,7 +36355,11 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De naamgegevens van een natuurlijk persoon, met uitzondering van de voornamen en eventuele voorvoegsels.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De naamgegevens van een natuurlijk persoon, met uitzondering van de voornamen en eventuele voorvoegsels. </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -35828,7 +36452,12 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>Adres of standplaats/plaats van vestiging van de ondertekenaar.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">Adres of standplaats/plaats van vestiging van de ondertekenaar.<br clear="none"/>
+                                       </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -36048,7 +36677,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -36221,7 +36854,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Ambtelijk correctie gegeven identificatie</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Ambtelijk correctie gegeven identificatie</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -36934,7 +37571,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37108,7 +37749,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>RedenVerzoek is de omschrijving van de reden om een stuk niet in te schrijven of om verbetering te vragen.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">RedenVerzoek is de omschrijving van de reden om een stuk niet in te schrijven of om verbetering te vragen.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37214,7 +37859,11 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De reden om een stuk niet in te schrijven of om verbetering te vragen.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De reden om een stuk niet in te schrijven of om verbetering te vragen. </p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -37306,7 +37955,11 @@ attribuut de waarde 0.</p>
                                  </item>
                                  <item type="TRACED">
                                     <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                    <item>De omschrijving van de reden voor een Kadaster verzoek die afwijkt van de standaard redenen die bij reden kunnen worden opgegeven. Bij reden is voor 'overig' gekozen.</item>
+                                    <item>
+                                       <p xmlns="http://www.w3.org/1999/xhtml"
+                                          xmlns:html="http://www.w3.org/1999/xhtml"
+                                          xmlns:imvert="http://www.imvertor.org/schema/system">De omschrijving van de reden voor een Kadaster verzoek die afwijkt van de standaard redenen die bij reden kunnen worden opgegeven. Bij reden is voor 'overig' gekozen.</p>
+                                    </item>
                                  </item>
                               </item>
                            </part>
@@ -37414,7 +38067,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Unieke identificatie van het soort AKR/HYP-register, waarbinnen stukken worden genummerd. Welke nog gehanteerd wordt zolang de registratie in AKR plaatsvindt.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Unieke identificatie van het soort AKR/HYP-register, waarbinnen stukken worden genummerd. Welke nog gehanteerd wordt zolang de registratie in AKR plaatsvindt.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37476,8 +38133,12 @@ Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Toelichting
-Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type Tekst blijven omdat er in het verleden alfanumerieke waarden zijn toegekend. Bij conversie vanuit AKR naar KVS zullen we bijvoorbeeld deel 1000A nr. 1 aantreffen.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Toelichting
+Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type Tekst blijven omdat er in het verleden alfanumerieke waarden zijn toegekend. Bij conversie vanuit AKR naar KVS zullen we bijvoorbeeld deel 1000A nr. 1 aantreffen.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37539,8 +38200,12 @@ Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Toelichting
-Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type Tekst blijven omdat er in het verleden alfanumerieke waarden zijn toegekend. Bij conversie vanuit AKR naar KVS zullen we bijvoorbeeld deel 1000 nr. 1A aantreffen. NB. In de landelijke stukkenregistratie is stukdeel-2 niet uniek identificerend binnen een register, omdat tijdig ingediende verbeteringen hetzelfde volgnummer krijgen als het oorspronkelijke stuk.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Toelichting
+Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type Tekst blijven omdat er in het verleden alfanumerieke waarden zijn toegekend. Bij conversie vanuit AKR naar KVS zullen we bijvoorbeeld deel 1000 nr. 1A aantreffen. NB. In de landelijke stukkenregistratie is stukdeel-2 niet uniek identificerend binnen een register, omdat tijdig ingediende verbeteringen hetzelfde volgnummer krijgen als het oorspronkelijke stuk.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37601,7 +38266,11 @@ Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>De unieke identificatie van de reeks van een stuk binnen een register welke nog gehanteerd wordt zolang de registratie in AKR plaatsvindt.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">De unieke identificatie van de reeks van een stuk binnen een register welke nog gehanteerd wordt zolang de registratie in AKR plaatsvindt.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37822,7 +38491,11 @@ Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>TypeDeelEnNummer.deel bevat de identificatie van het stuk binnen zijn soort.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">TypeDeelEnNummer.deel bevat de identificatie van het stuk binnen zijn soort.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37859,8 +38532,14 @@ Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type
                      <section type="EXPLANATION">
                         <content>
                            <part>
-                              <item>Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type Tekst blijven omdat er in het verleden alfanumerieke waarden zijn toegekend.
-Geen voorloopnullen</item>
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">Hoewel er nu alleen nog numerieke waarden worden toegekend, moet het domein type Tekst blijven omdat er in het verleden alfanumerieke waarden zijn toegekend. </p>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">Geen voorloopnullen</p>
+                              </item>
                            </part>
                         </content>
                      </section>
@@ -37897,7 +38576,11 @@ Geen voorloopnullen</item>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>TypeDeelEnNummer.volgnummer is het volgnummer van het stuk binnen het deel van het register.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">TypeDeelEnNummer.volgnummer is het volgnummer van het stuk binnen het deel van het register.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -37934,8 +38617,14 @@ Geen voorloopnullen</item>
                      <section type="EXPLANATION">
                         <content>
                            <part>
-                              <item>In de landelijke stukkenregistratie is dit nummer niet uniek identificerend binnen een register, omdat tijdig ingediende verbeteringen hetzelfde volgnummer krijgen als het oorspronkelijke stuk.
-Geen voorloopnullen.</item>
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">In de landelijke stukkenregistratie is dit nummer niet uniek identificerend binnen een register, omdat tijdig ingediende verbeteringen hetzelfde volgnummer krijgen als het oorspronkelijke stuk. </p>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">Geen voorloopnullen.</p>
+                              </item>
                            </part>
                         </content>
                      </section>
@@ -37967,7 +38656,11 @@ De waarden zijn opgenomen in een Waardelijst.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>TypeDeelEnNummer.reeks is een verwijzing naar de oorspronkelijke (mogelijk tussentijds vervallen) Kadastervestiging waar het stuk oorspronkelijk is ingeschreven.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">TypeDeelEnNummer.reeks is een verwijzing naar de oorspronkelijke (mogelijk tussentijds vervallen) Kadastervestiging waar het stuk oorspronkelijk is ingeschreven. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -38004,7 +38697,11 @@ De waarden zijn opgenomen in een Waardelijst.</p>
                      <section type="EXPLANATION">
                         <content>
                            <part>
-                              <item>De waarden zijn opgenomen in een Waardelijst.</item>
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">De waarden zijn opgenomen in een Waardelijst.</p>
+                              </item>
                            </part>
                         </content>
                      </section>
@@ -38036,7 +38733,11 @@ De waarden zijn opgenomen in een Waardelijst.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>TypeDeelEnNummer.registercode is een aanduiding van het soort register waarin het stuk is ingeschreven, aangeduid met een code.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">TypeDeelEnNummer.registercode is een aanduiding van het soort register waarin het stuk is ingeschreven, aangeduid met een code. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -38073,7 +38774,11 @@ De waarden zijn opgenomen in een Waardelijst.</p>
                      <section type="EXPLANATION">
                         <content>
                            <part>
-                              <item>De waarden zijn opgenomen in een Waardelijst.</item>
+                              <item>
+                                 <p xmlns="http://www.w3.org/1999/xhtml"
+                                    xmlns:html="http://www.w3.org/1999/xhtml"
+                                    xmlns:imvert="http://www.imvertor.org/schema/system">De waarden zijn opgenomen in een Waardelijst.</p>
+                              </item>
                            </part>
                         </content>
                      </section>
@@ -38105,8 +38810,12 @@ De waarden zijn opgenomen in een Waardelijst.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Aanduiding soort Register bepaalt de hoofdcategorie van een ter inschrijving aangeboden stuk. Bijvoorbeeld Hypotheekakten, Transportakten.
-De waarden zijn opgenomen in een Waardelijst.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Aanduiding soort Register bepaalt de hoofdcategorie van een ter inschrijving aangeboden stuk. Bijvoorbeeld Hypotheekakten, Transportakten.
+De waarden zijn opgenomen in een Waardelijst.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -38190,12 +38899,7 @@ De waarden zijn opgenomen in een Waardelijst.</item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item>
-                        <item type="TRACED">
-                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>URI https://tax.kadaster.nl/doc/begrip/Niet-natuurlijk_persoon</item>
-                        </item>
-                     </item>
+                     <item/>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -38286,7 +38990,7 @@ De waarden zijn opgenomen in een Waardelijst.</item>
                               <item type="global" idref="global_class_Persoon__Persoon">_Persoon</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Persoon</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -38358,7 +39062,7 @@ De waarden zijn opgenomen in een Waardelijst.</item>
                               <item type="global" idref="global_class_Persoon__Persoon">_Persoon</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Persoon</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -38448,12 +39152,7 @@ De waarden zijn opgenomen in een Waardelijst.</item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item>
-                        <item type="TRACED">
-                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>URI https://tax.kadaster.nl/doc/begrip/Natuurlijk_persoon</item>
-                        </item>
-                     </item>
+                     <item/>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -38542,7 +39241,7 @@ De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is.</
                               <item type="global" idref="global_class_Persoon__Persoon">_Persoon</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Persoon</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -38585,7 +39284,7 @@ De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is.</
                               <item type="global" idref="global_class_Persoon__Persoon">_Persoon</item>
                            </item>
                         </item>
-                        <item>URI https://tax.kadaster.nl/doc/begrip/Persoon</item>
+                        <item/>
                      </part>
                      <part>
                         <item>
@@ -38649,12 +39348,7 @@ De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is.</
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
-                     <item>
-                        <item type="TRACED">
-                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>URI https://tax.kadaster.nl/doc/begrip/Persoon</item>
-                        </item>
-                     </item>
+                     <item/>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
@@ -39685,12 +40379,16 @@ De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is.</
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Natuurlijk persoon is al dan niet overleden en is niet gekoppeld aan de BRP.
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijk persoon is al dan niet overleden en is niet gekoppeld aan de BRP.
 Definitie
-Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.
+Indicatie Overleden is een indicatie of de persoon al dan niet overleden is. 
 Toelichting
 Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn
-De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is.</item>
+De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -40608,7 +41306,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -40782,7 +41484,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>NaamOpenbaarRegister is gegevensgroep waarin, indien van toepassing, een afwijkende schrijfwijze van de naam van een persoon volgens het openbare register van het Kadaster wordt vastgelegd.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">NaamOpenbaarRegister is gegevensgroep waarin, indien van toepassing, een afwijkende schrijfwijze van de naam van een persoon volgens het openbare register van het Kadaster wordt vastgelegd.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -41469,7 +42175,11 @@ Bij een Persoon is de woonlocatie altijd gevuld, tenzij een persoon vertrokken i
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een PostbusLocatie is een aanduiding van de locatie van een postbus.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een PostbusLocatie is een aanduiding van de locatie van een postbus. </p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -41630,7 +42340,11 @@ Bij een Persoon is de woonlocatie altijd gevuld, tenzij een persoon vertrokken i
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een objectlocatiebuitenland is een adres buiten Nederland.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een objectlocatiebuitenland is een adres buiten Nederland.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -41778,7 +42492,11 @@ Bij een Persoon is de woonlocatie altijd gevuld, tenzij een persoon vertrokken i
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een AdresLocatie is een ObjectLocatie of een PostbusLocatie</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een AdresLocatie is een ObjectLocatie of een PostbusLocatie</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -42049,7 +42767,11 @@ attribuut de waarde 0.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een Objectlocatie is een ObjectlocatieBinnenland of een ObjectlocatieBuitenland.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een Objectlocatie is een ObjectlocatieBinnenland of een ObjectlocatieBuitenland.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -42202,7 +42924,11 @@ Bij een Persoon is de woonlocatie altijd gevuld, tenzij een persoon vertrokken i
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een ObjectlocatieBinnenland is een adres binnen nederland.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een ObjectlocatieBinnenland is een adres binnen nederland.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -43386,7 +44112,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door het Kadaster toegekend landelijk uniek nummer aan een object binnen de kadastrale registratie. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -43647,7 +44377,11 @@ attribuut de waarde 0.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Adresbuitenland is een locatie in het buitenland, aangeduid met authentieke gegevens uit de BasisRegistratiePersonen</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Adresbuitenland is een locatie in het buitenland, aangeduid met authentieke gegevens uit de BasisRegistratiePersonen </p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -43928,7 +44662,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Identificatie is een door de Basisregistratie Personen toegekend landelijk uniek nummer aan een object.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie is een door de Basisregistratie Personen toegekend landelijk uniek nummer aan een object. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -44021,7 +44759,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Het adres is een combinatie van de straat en huisnummer.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het adres is een combinatie van de straat en huisnummer.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -44114,7 +44856,11 @@ attribuut de waarde 0.</p>
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Woonplaats is De postcode/woonplaats is de combinatie van een eventuele postcode en woonplaats.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Woonplaats is De postcode/woonplaats is de combinatie van een eventuele postcode en woonplaats.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -46206,7 +46952,12 @@ attribuut de waarde 0.</p>
                   </part>
                   <part type="CFG-DOC-HERKOMST">
                      <item>Herkomst</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DEFINITIE">
                      <item>Definitie</item>
@@ -46221,13 +46972,22 @@ attribuut de waarde 0.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Waardelijst is een samengesteld datatype voor het weergeven van een gegeven binnen een extern beheerde referentielijst.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Waardelijst is een samengesteld datatype voor het weergeven van een gegeven binnen een extern beheerde referentielijst. </p>
+                           </item>
                         </item>
                      </item>
                   </part>
                   <part type="CFG-DOC-HERKOMSTDEFINITIE">
                      <item>Herkomst definitie</item>
-                     <item/>
+                     <item>
+                        <item type="TRACED">
+                           <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
+                           <item>BRK</item>
+                        </item>
+                     </item>
                   </part>
                   <part type="CFG-DOC-DATUMOPNAME">
                      <item>Datum opname</item>
@@ -46328,7 +47088,11 @@ attribuut de waarde 0.</p>
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>TypeOnvolledigeDatum is een samengesteld datatype voor een mogelijk onvolledige datum waarbij jaar kan worden gevolgd door maand, en maand kan worden gevolgd door dag.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">TypeOnvolledigeDatum is een samengesteld datatype voor een mogelijk onvolledige datum waarbij jaar kan worden gevolgd door maand, en maand kan worden gevolgd door dag. </p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -46708,7 +47472,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Het bedrag. Dit is een waarde met max. 2 decimalen.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Het bedrag. Dit is een waarde met max. 2 decimalen. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -46769,7 +47537,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Aanduiding van de valutasoort.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Aanduiding van de valutasoort. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -46988,7 +47760,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>FactuurGegevens is een verzameling van gegevens waarmee wordt aangegeven of werkzaamheden ten behoeve van het (opnieuw)vaststellen van kadastrale grenzen nog moeten worden gefactureerd.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">FactuurGegevens is een verzameling van gegevens waarmee wordt aangegeven of werkzaamheden ten behoeve van het (opnieuw)vaststellen van kadastrale grenzen nog moeten worden gefactureerd.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -47250,7 +48026,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>ClassificatiePerceel is een typering van het soort perceel dat is gevormd in BRK-Geo ten behoeve van de facturatie. Omdat het bij de overdracht van belang is om te weten dat er nog een factuur te verwachten is wordt dit gegeven ook opgenomen in de BRK-A.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">ClassificatiePerceel is een typering van het soort perceel dat is gevormd in  BRK-Geo ten behoeve van de facturatie. Omdat het bij de overdracht van belang is om te weten dat er nog een factuur te verwachten is wordt dit gegeven ook opgenomen in de BRK-A.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -47343,7 +48123,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>AantalOverdrachten is het aantal overdrachten waar een nieuw gevormd perceel bij betrokken is.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">AantalOverdrachten is het aantal overdrachten waar een nieuw gevormd perceel bij betrokken is. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -47600,7 +48384,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                         </item>
                         <item type="TRACED">
                            <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                           <item>Een Herverkavelingsgebied is een gebied waarin onroerende zaken onder toepassing van de Wet inrichting landelijk Gebied worden samengevoegd, verkaveld en verdeeld.</item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een Herverkavelingsgebied is een gebied waarin onroerende zaken onder toepassing van de Wet inrichting landelijk Gebied worden samengevoegd, verkaveld en verdeeld.</p>
+                           </item>
                         </item>
                      </item>
                   </part>
@@ -47897,7 +48685,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>Een bloknummer is een numerieke aanduiding van een blok in een herverkaveling.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">Een bloknummer is een numerieke aanduiding van een blok in een <a href="http://tax.kadaster.nl/id/begrip/Herverkaveling" shape="rect">herverkaveling</a>. </p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -47990,7 +48782,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>naamHerverkavelingsproject is de naam van een herverkavelingsproject.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">naamHerverkavelingsproject is de naam van een herverkavelingsproject.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -48083,7 +48879,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
                               </item>
                               <item type="TRACED">
                                  <item type="SUPPLIER">cdmkad/CDMKAD/20190101</item>
-                                 <item>statusHerverkavelingspoject is een indicator voor de fase waarin een herverkavelingsproject zich bevindt.</item>
+                                 <item>
+                                    <p xmlns="http://www.w3.org/1999/xhtml"
+                                       xmlns:html="http://www.w3.org/1999/xhtml"
+                                       xmlns:imvert="http://www.imvertor.org/schema/system">statusHerverkavelingspoject is een indicator voor de fase waarin een herverkavelingsproject zich bevindt.</p>
+                                 </item>
                               </item>
                            </item>
                         </part>
@@ -48193,7 +48993,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
             <content>
                <part>
                   <item>Definitie</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst CultuurOnbebouwd is een opsomming van de mogelijke waarden voor de aard van het gebruik van een onbebouwde onroerende zaak. </p>
+                  </item>
                </part>
             </content>
             <content/>
@@ -48206,7 +49010,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
             <content>
                <part>
                   <item>Definitie</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst AardFiliatie is een opsomming van de mogelijke waarden voor de aard of reden van de filiatie van een onroerende zaak.</p>
+                  </item>
                </part>
             </content>
             <content/>
@@ -48219,7 +49027,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
             <content>
                <part>
                   <item>Definitie</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst KadastraleGemeente is een opsomming van de mogelijke Kadastrale gemeenten. </p>
+                  </item>
                </part>
             </content>
             <content/>
@@ -48232,7 +49044,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
             <content>
                <part>
                   <item>Definitie</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst AardLeidingnetwerk is een opsomming van de mogelijke waarden voor de aard van een leidingnetwerk. </p>
+                  </item>
                </part>
             </content>
             <content/>
@@ -48245,7 +49061,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
             <content>
                <part>
                   <item>Definitie</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst TypeGrens is een opsomming van de mogelijke typen grens.</p>
+                  </item>
                </part>
             </content>
             <content/>
@@ -48258,7 +49078,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
             <content>
                <part>
                   <item>Definitie</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst CultuurBebouwd is een opsomming van de mogelijke waarden voor de aard van het gebruik van een bebouwde onroerende zaak. </p>
+                  </item>
                </part>
             </content>
             <content/>
@@ -48271,7 +49095,11 @@ De mogelijke waarde voor de identificatie namespace is uniek per specifiek domei
             <content>
                <part>
                   <item>Definitie</item>
-                  <item/>
+                  <item>
+                     <p xmlns="http://www.w3.org/1999/xhtml"
+                        xmlns:html="http://www.w3.org/1999/xhtml"
+                        xmlns:imvert="http://www.imvertor.org/schema/system">Referentielijst SoortGrootte is een opsomming van de mogelijke typen soorten van de grootte van een perceel.</p>
+                  </item>
                </part>
             </content>
             <content/>
