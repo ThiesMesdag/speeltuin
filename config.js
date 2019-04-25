@@ -9,7 +9,8 @@ var respecConfig = {
   }],
   shortName: "Kadaster",
   pubDomain: "IMKAD",
-  github: "https://github.com/kadaster/imkad",
+  subtitle: "Review draft",
+	github: "https://github.com/kadaster/imkad",
 logos: [{
 		src: 'https://zakelijk.kadaster.nl/iv-kadaster-theme/images/logo.png',
 		href: "https://zakelijk.kadaster.nl/imkad",
