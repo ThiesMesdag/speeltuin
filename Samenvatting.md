@@ -6,3 +6,5 @@ Deze Basisregistratie bestaat uit:
 
 Ook leidingen en kabelnetwerken zijn onroerende zaken. Een geregistreerd netwerk maakt daarom onderdeel uit van de BRK. 
 
+<h3>Opmerking</h3>
+Dit document gebruikt een sjabloon voor informatiemodellen dat door Geonovum is ontwikkeld op basis van de W3C Respec standaard. Het is helaas op dit moment helaas nog niet gelukt om hier een Kadastervariant van te maken. Daardoor wordt op verschillende plaatsen in het document Geonovum in plaats van Kadaster genoemd. 
