@@ -6,4 +6,3 @@ Deze Basisregistratie bestaat uit:
 
 Ook leidingen en kabelnetwerken zijn onroerende zaken. Een geregistreerd netwerk maakt daarom onderdeel uit van de BRK. 
 
-In dit document wordt het informatiemodel voor de Kadastrale registratie van onroerende zaken en zakelijke rechten beschreven.
