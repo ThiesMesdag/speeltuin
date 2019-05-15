@@ -1,11 +1,11 @@
 Colofon
 -------
 
-Documentnaam Catalogus IMKAD 2.2
+Documentnaam:  Catalogus IMKAD 2.2
 
-Contactpersoon Thies Mesdag
+Contactpersoon via: modellenbureau@kadaster.nl
 
-Auteurs Kadaster
+Auteurs: Kadaster
 
 Versiehistorie
 
@@ -13,5 +13,3 @@ Versiehistorie
 |--------|------------|------|---------|-----------------------------------|
 | 0.99   | 10-04-2019 |      |         | initiele versie                   |
 
-
-----------
