@@ -95,7 +95,7 @@ Ad materiele tijdstippen:
 
 __Voorkomen/versie__
 
-De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype ![Afbeelding van het objecttype stereotype](objecttype.png). Het object(type) overerft de historiegegevens van  het objecttype Voorkomen uit de package Historie. In het model is dit te zien door dat het objecttype het woord `_VoorkomenOR` of `_VoorkomenNen3610` in de rechterbovenhoek van een object staat.<br/> 
+De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype ![Afbeelding van het objecttype stereotype](objecttype.png). Het object(type) overerft de historiegegevens van  het objecttype Voorkomen uit de package Historie. In het model is dit te zien door dat het objecttype het woord `VoorkomenOR` of `VoorkomenNen3610` in de rechterbovenhoek van een object staat.<br/> 
 Een voorkomen bevat de gegevens van één object, zoals deze gedurende een bepaalde periode bekend zijn bij het object. Na elke wijziging ontstaat een nieuw voorkomen. De historiegegevens zelf zijn ook onderdeel van het voorkomen (als metagegevens). 
 
 Een voorkomen/versie wordt uniek aangeduid met een combinatie van gegevens: 
