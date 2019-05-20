@@ -3,7 +3,7 @@ var respecConfig = {
 //  specType: "IM",
   publishDate: "2019-05-01",
   editors: [{
-    name: "Thies Mesdag",
+    name: "Modellenbureau",
     company: "Kadaster",
     companyURL: "www.kadadaster.nl",
   }],
