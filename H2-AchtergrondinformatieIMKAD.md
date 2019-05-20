@@ -10,25 +10,27 @@ IMKAD is gemodelleerd volgens het [MIM - Metamodel Informatie Modellering](https
 <h3>Samenhang met andere basisregistraties</h3>
 
 IMKAD heeft relaties met andere basisregistraties in Nederland. De authentieke gegevens over natuurlijke personen (ingezetenen) zijn opgenomen in de basisregistratie BRP en de authentieke gegevens over niet natuurlijke personen (bedrijven en instellingen) in het handelsregister (HR). De authentieke gegevens over adressen en gebouwen zijn opgenomen de basisregistratie Adressen en Gebouwen (BAG). 
-De gegevens van personen en adressen zijn in IMKAD opgenomen overeenkomstig de BRP en de BAG. Daarnaast bevat IMKAD eigen klassen voor buitenlandse adressen en postadressen, omdat die niet in BAG zullen komen
-IMKAD heeft een plaats binnen een stelsel van standaarden voor geo-informatie binnen de publieke sector. Dit stelsel, beheerd door GeoNovum, bepaalt dat Nederlandse standaarden voor geoinformatie moeten voldoen aan de NEN3610 standaard, het basismodel geo-informatie. Binnen die standaard zijn klassen weer gekoppeld aan de internationale GML standaard. GML is tevens het bij het Basismodel behorende formaat voor uitwisseling van geo-informatie bestanden. GML is een op XML gebaseerde codering om geografische informatie te modelleren, transporteren en op te slaan.
+
+De gegevens van personen en adressen zijn in IMKAD opgenomen overeenkomstig de BRP en de BAG. Daarnaast bevat IMKAD eigen klassen voor buitenlandse adressen en postadressen, omdat die niet in BAG zullen komen.
+
+IMKAD heeft een plaats binnen een stelsel van standaarden voor geo-informatie binnen de publieke sector. Dit stelsel, beheerd door Geonovum, bepaalt dat Nederlandse standaarden voor geoinformatie moeten voldoen aan de NEN3610 standaard, het basismodel geo-informatie. Binnen die standaard zijn klassen weer gekoppeld aan de internationale GML standaard. GML is tevens het bij het Basismodel behorende formaat voor uitwisseling van geo-informatie bestanden. GML is een op XML gebaseerde codering om geografische informatie te modelleren, transporteren en op te slaan.
 
 <h3>Basis voor productmodellen</h3>
 
 Wanneer het Kadaster een informatieproduct ontwerpt is het IMKAD model de basis. Voorbeelden van informatie producten zijn KIK aktemodellen, KIK webservices en BRK levering. Voor het beschrijven van een informatieproduct wordt het IMKAD model vereenvoudigd tot die delen die nodig zijn voor het informatieproduct. In sommige gevallen worden de informatieproducten daarnaast verrijkt met andere informatie. Dit is bijvoorbeeld het geval bij KIK aktemodellen. Het productmodel bevat ook elementen die nodig zijn voor het toetsen van de juridische geldigheid van een akte. Deze elementen zijn echter niet nodig in de Basisregistratie Kadaster (BRK) en zitten daarom ook niet in IMKAD.
-Het model is bedoeld om een informatieproduct te beschrijven. Vanuit dit productmodel worden vervolgens geautomatiseerd de XML-schema (XSD) of Json-schema (Json) gemaakt definities. Deze definitie bestanden specificeren de structuur waarmee de data worden uitgewisseld. De afnemers van onze informatie kunnen deze bestanden gebruiken bij het bouwen van de koppeling met het Kadaster.
+
+Het model is bedoeld om een informatieproduct te beschrijven. Vanuit dit productmodel worden vervolgens geautomatiseerd de XML-schema (XSD) of Json-schema (Json) gemaakt. Deze definitiebestanden specificeren de structuur waarmee de data worden uitgewisseld. De afnemers van onze informatie kunnen deze bestanden gebruiken bij het bouwen van de koppeling met het Kadaster.
 
 <h3>Opbouw van het model</h3>
 
-Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk te houden. Ieder deel heeft zijn eigen naam; de namespace. Om toch versies van het model te kunnen onderscheiden, heeft ook het geheel een versienummer gekregen. Dit nummer heeft echter geen directe relatie met de versies van de onderliggende packages. De volgende afbeelding geeft weer hoe de domain packages in IMKAD staan.
+Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk te houden. Ieder deel heeft zijn eigen naam; de namespace. Om toch versies van het model te kunnen onderscheiden, heeft ook het geheel een versienummer gekregen. Dit nummer heeft echter geen directe relatie met de versies van de onderliggende packages. De volgende afbeelding geeft weer hoe de domain packages in IMKAD staan. De delen van het model die informatie uit andere basisregistraties weergeven zijn opgenomen als ![Afbeelding van het view stereotype](view.png) packages.
 
 ![Afbeelding van de package structuur in IMKAD](packagesImkad.png)
 
-De delen van het model die informatie uit ander basisregistraties weergeven zijn opgenomen als ![Afbeelding van het view stereotype](view.png) packages die modellen uit andere basisregistraties weergeven.
 
 <h3>Waardelijsten</h3>
 
-In IMKAD worden voor een de gegevens met een vast waardebereik referentielijsten gehanteerd. Deze referentielijsten worden beheerd als lijsten met toegestane waarden (waardelijsten). Een voorbeeld is een lijst met gemeentecodes met bijbehorende gemeentenamen.
+In IMKAD worden voor gegevens met een vast waardebereik referentielijsten gehanteerd. Deze referentielijsten worden beheerd als lijsten met toegestane waarden (waardelijsten). Een voorbeeld is een lijst met gemeentecodes met bijbehorende gemeentenamen.
 
 Waardelijsten gaan over inhoud, een informatiemodel vooral over structuur. Waardelijsten hebben ook een andere dynamiek dan het informatiemodel. Zo leidt bijvoorbeeld een gemeentelijke herindeling tot een aanpassing van de waardelijst ‘Nederlandse gemeenten’ zonder dat dit gevolgen heeft voor het informatiemodel. De IMKAD waardelijsten worden gepubliceerd op www.kadaster.nl/waardelijsten en zijn ook rechtstreeks te benaderen via de url in het informatiemodel.
 
@@ -36,10 +38,10 @@ Waardelijsten gaan over inhoud, een informatiemodel vooral over structuur. Waard
 
 Binnen de BRK is er onderscheid te maken tussen het openbaar register en de Kadastrale registratie. Het openbaar register is een documentenregistatie waarin de aan het Kadaster ter inschrijving aangeboden stukken worden opgenomen. Dit zijn over het algemeen stukken die betrekking hebben op het overdragen en vestigen van zakelijke rechten op onroerende zaken. 
 
-Met de informatie die in deze ingeschreven stukken staat wordt de Kadastrale registratie bijgewerkt naar de nieuwe juiste stand. In deze registratie wordt vastgelegd wie welke rechten heeft op een Kadastraal object. Een Kadastraal object is een [onroerende zaak](https://tax.kadaster.nl/doc/begrip/Onroerende_zaak) of een [teboekgestelde zaak](https://tax.kadaster.nl/doc/begrip/Teboekgestelde_zaak). In de BRK is een onroerende zaak een perceel, een appartementsrecht of een netwerk. De teboekgestelde zaken zijn schepen of luchtvaartuigen. Deze zijn echter niet opgenomen in het hier beschreven informatiemodel. 
+Met de informatie die in deze ingeschreven stukken staat wordt de Kadastrale registratie bijgewerkt naar de nieuwe juiste stand. In deze registratie wordt vastgelegd wie welke rechten heeft op een Kadastraal object. Een Kadastraal object is een [onroerende zaak](https://tax.kadaster.nl/doc/begrip/Onroerende_zaak) of een [teboekgestelde zaak](https://tax.kadaster.nl/doc/begrip/Teboekgestelde_zaak). In de BRK is een onroerende zaak een perceel, een appartementsrecht of een netwerk. De teboekgestelde zaken zijn schepen of luchtvaartuigen. 
 De Kadastrale registratie is de basis voor veel van de informatieproducten van het kadaster.
 
-In het informatiemodel wordt het openbaar register beschreven met het model in de package Stuk. De Kadastrale registratie wordt in de kern beschreven in de package *Recht* met als basis de packages *KadastraalObject*, *OnroerendeZaak* en *Persoon*.
+In het informatiemodel wordt het openbaar register beschreven in het package Stuk. De Kadastrale registratie wordt in de kern beschreven in de package *Recht* met als basis de packages *KadastraalObject*, *OnroerendeZaak* en *Persoon*.
 
 <h3>Historie van BRK objecten.</h3>
 
