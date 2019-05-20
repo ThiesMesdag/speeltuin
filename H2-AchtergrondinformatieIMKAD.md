@@ -5,25 +5,27 @@ Het informatiemodel van het kadaster beschrijft de basisgegevens van alle onroer
 
 <h3>Metamodel</h3>
 
-IMKAD is gemodelleerd volgens het [MIM - Metamodel Informatie Modellering](https://docs.geostandaarden.nl/mim/mim10/). Het model is voor het overzicht is onderverdeeld in z.g. “packages”, op basis van de inhoudelijke samenhang van de klassen. 
+IMKAD is gemodelleerd volgens het [MIM - Metamodel Informatie Modellering](https://docs.geostandaarden.nl/mim/mim10/). Het model is voor het overzicht onderverdeeld in z.g. “packages”, op basis van de inhoudelijke samenhang van de klassen. 
 
 <h3>Samenhang met andere basisregistraties</h3>
 
 IMKAD heeft relaties met andere basisregistraties in Nederland. De authentieke gegevens over natuurlijke personen (ingezetenen) zijn opgenomen in de basisregistratie BRP en de authentieke gegevens over niet natuurlijke personen (bedrijven en instellingen) in het handelsregister (HR). De authentieke gegevens over adressen en gebouwen zijn opgenomen de basisregistratie Adressen en Gebouwen (BAG). 
 
-De gegevens van personen en adressen zijn in IMKAD opgenomen overeenkomstig de BRP en de BAG. Daarnaast bevat IMKAD eigen klassen voor buitenlandse adressen en postadressen, omdat die niet in BAG zullen komen.
+De gegevens van personen en adressen zijn in IMKAD opgenomen overeenkomstig de BRP en de BAG. Daarnaast bevat IMKAD eigen klassen voor buitenlandse adressen en postadressen, omdat die niet in de BAG zullen komen.
 
-IMKAD heeft een plaats binnen een stelsel van standaarden voor geo-informatie binnen de publieke sector. Dit stelsel, beheerd door Geonovum, bepaalt dat Nederlandse standaarden voor geoinformatie moeten voldoen aan de NEN3610 standaard, het basismodel geo-informatie. Binnen die standaard zijn klassen weer gekoppeld aan de internationale GML standaard. GML is tevens het bij het Basismodel behorende formaat voor uitwisseling van geo-informatie bestanden. GML is een op XML gebaseerde codering om geografische informatie te modelleren, transporteren en op te slaan.
+Hoewel IMKAD onderdeel is van het stelsel van basisregistraties komen er ook objectadressen voor die niet gekoppeld zijn aan de BAG. Ook zijn er natuurlijke personen voor die niet gekoppeld zijn aan de BRP en niet natuurlijke personen die niet gekoppeld zijn aan het NHR. De Persoonsadressen zijn (nog) niet gekoppeld aan de BAG.
+
+IMKAD heeft een plaats binnen een stelsel van standaarden voor geo-informatie binnen de publieke sector. Dit stelsel, beheerd door Geonovum, bepaalt dat Nederlandse informatiemodellen voor geoinformatie moeten voldoen aan de NEN3610 standaard, het basismodel geo-informatie. Binnen die standaard zijn klassen weer gekoppeld aan de internationale GML standaard. GML is tevens het bij het Basismodel behorende formaat voor uitwisseling van geo-informatie bestanden. GML is een op XML gebaseerde codering om geografische informatie te modelleren, transporteren en op te slaan.
 
 <h3>Basis voor productmodellen</h3>
 
 Wanneer het Kadaster een informatieproduct ontwerpt is het IMKAD model de basis. Voorbeelden van informatie producten zijn KIK aktemodellen, KIK webservices en BRK levering. Voor het beschrijven van een informatieproduct wordt het IMKAD model vereenvoudigd tot die delen die nodig zijn voor het informatieproduct. In sommige gevallen worden de informatieproducten daarnaast verrijkt met andere informatie. Dit is bijvoorbeeld het geval bij KIK aktemodellen. Het productmodel bevat ook elementen die nodig zijn voor het toetsen van de juridische geldigheid van een akte. Deze elementen zijn echter niet nodig in de Basisregistratie Kadaster (BRK) en zitten daarom ook niet in IMKAD.
 
-Het model is bedoeld om een informatieproduct te beschrijven. Vanuit dit productmodel worden vervolgens geautomatiseerd de XML-schema (XSD) of Json-schema (Json) gemaakt. Deze definitiebestanden specificeren de structuur waarmee de data worden uitgewisseld. De afnemers van onze informatie kunnen deze bestanden gebruiken bij het bouwen van de koppeling met het Kadaster.
+Het model is bedoeld om een informatieproduct te beschrijven. Vanuit dit productmodel worden geautomatiseerd de XML-schema's (XSD) of Json-schema's (Json) gemaakt. Deze definitiebestanden specificeren de structuur waarmee de data wordt uitgewisseld. De afnemers van onze informatie kunnen deze bestanden gebruiken bij het bouwen van de koppeling met het Kadaster.
 
 <h3>Opbouw van het model</h3>
 
-Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk te houden. Ieder deel heeft zijn eigen naam; de namespace. Om toch versies van het model te kunnen onderscheiden, heeft ook het geheel een versienummer gekregen. Dit nummer heeft echter geen directe relatie met de versies van de onderliggende packages. De volgende afbeelding geeft weer hoe de domain packages in IMKAD staan. De delen van het model die informatie uit andere basisregistraties weergeven zijn opgenomen als ![Afbeelding van het view stereotype](view.png) packages.
+Het IMKAD model is opgebouwd uit delen (domain packages) om het overzichtelijk te houden. Ieder deel heeft zijn eigen naam; de namespace en een eigen versienummer. Om toch versies van het model te kunnen onderscheiden, heeft ook het geheel een versienummer gekregen. Dit nummer heeft echter geen directe relatie met de versies van de onderliggende packages. De volgende afbeelding geeft weer hoe de domain packages in IMKAD staan. De delen van het model die informatie uit andere basisregistraties weergeven zijn opgenomen als ![Afbeelding van het view stereotype](view.png) packages.
 
 ![Afbeelding van de package structuur in IMKAD](packagesImkad.png)
 
@@ -38,14 +40,14 @@ Waardelijsten gaan over inhoud, een informatiemodel vooral over structuur. Waard
 
 Binnen de BRK is er onderscheid te maken tussen het openbaar register en de Kadastrale registratie. Het openbaar register is een documentenregistatie waarin de aan het Kadaster ter inschrijving aangeboden stukken worden opgenomen. Dit zijn over het algemeen stukken die betrekking hebben op het overdragen en vestigen van zakelijke rechten op onroerende zaken. 
 
-Met de informatie die in deze ingeschreven stukken staat wordt de Kadastrale registratie bijgewerkt naar de nieuwe juiste stand. In deze registratie wordt vastgelegd wie welke rechten heeft op een Kadastraal object. Een Kadastraal object is een [onroerende zaak](https://tax.kadaster.nl/doc/begrip/Onroerende_zaak) of een [teboekgestelde zaak](https://tax.kadaster.nl/doc/begrip/Teboekgestelde_zaak). In de BRK is een onroerende zaak een perceel, een appartementsrecht of een netwerk. De teboekgestelde zaken zijn schepen of luchtvaartuigen. 
+Met de informatie die in deze ingeschreven stukken staat wordt de Kadastrale registratie bijgewerkt naar de nieuwe juiste stand. In deze registratie wordt vastgelegd wie welke rechten heeft op een Kadastraal object. Een Kadastraal object is een [onroerende zaak](https://tax.kadaster.nl/doc/begrip/Onroerende_zaak) of een [teboekgestelde zaak](https://tax.kadaster.nl/doc/begrip/Teboekgestelde_zaak). In de BRK is een onroerende zaak een perceel, een appartementsrecht of een leidingnetwerk. De teboekgestelde zaken zijn schepen of luchtvaartuigen. 
 De Kadastrale registratie is de basis voor veel van de informatieproducten van het kadaster.
 
 In het informatiemodel wordt het openbaar register beschreven in het package Stuk. De Kadastrale registratie wordt in de kern beschreven in de package *Recht* met als basis de packages *KadastraalObject*, *OnroerendeZaak* en *Persoon*.
 
 <h3>Historie van BRK objecten.</h3>
 
-De informatie van de BRK wordt ingewonnen door het Kadaster. In veel situaties op basis van akten die in het openbaar register (OR) worden opgenomen en in een aantal situaties op basis van andere brondocumenten en inwinningsprocessen. Deze informatie is opgenomen in de basisregistratie. 
+De informatie van de BRK wordt ingewonnen door het Kadaster. In veel situaties op basis van akten die in het openbaar register (OR) worden opgenomen en in een aantal situaties op basis van andere brondocumenten en inwinningsprocessen. Deze informatie uit deze bronnen wordt overgenomen in de basisregistratie. 
 
 Van alle informatie worden extra gegevens bijgehouden, om aan te geven
 * van wanneer tot wanneer deze informatie geldig is of was, 
@@ -70,7 +72,7 @@ Voor beiden wordt het tijdsmoment van opname in de BRK registratie bijgehouden, 
 
 Verder wordt voor alle informatie bijgehouden: 
 *	tijdstipBeschikbaar – moment van beschikbaarstelling in een dienst of product of informatie leveromgeving, zoals de dienst Kadaster online, BRK-levering, BRK-Bevragingen e.a. in die gevallen waarin deze later beschikbaar is gekomen dan vanuit de BRK registratie (deze kan gelijk aan tijdstipRegistatie). 
-*	de bron van de wijziging, genaamd audittrail. Deze informatie wordt meestal niet ontsloten/geleverd, maar is er wel als het nodig is op te vragen. 
+*	de bron van de wijziging, genaamd audittrail. Deze informatie wordt meestal niet ontsloten/geleverd, maar is er wel, als het nodig is om dit op te vragen. 
 
 __BRK historie vs NEN3610 historie__
 
@@ -93,20 +95,21 @@ Ad materiele tijdstippen:
 
 __Voorkomen/versie__
 
-De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype ![Afbeelding van het objecttype stereotype](objecttype.png) en dat deze attribuutsoorten overerft van Historie::Voorkomen (`_VoorkomenOR` of `_VoorkomenNen3610` in de rechterbovenhoek van een object). Een voorkomen bevat de gegevens van één object, zoals deze gedurende een bepaalde periode bekend zijn bij het object. Oftewel, de gegevens van één object zoals opgenomen zijn in de BRK, zonder dat de gegevens een wijziging hebben ondergaan. Na elke wijziging ontstaan een nieuw voorkomen. De basis van elk vooromen zijn de BRK gegevens zelf, maar de historiegegevens zelf zijn ook onderdeel van het voorkomen (als metagegevens). 
+De historiegegevens worden bijgehouden als voorkomen/versie van een object. Een object(type) is in het informatiemodel te herkennen aan het stereotype ![Afbeelding van het objecttype stereotype](objecttype.png). Het object(type) overerft de historiegegevens van  het objecttype Voorkomen uit de package Historie. In het model is dit te zien door dat het objecttype het woord `_VoorkomenOR` of `_VoorkomenNen3610` in de rechterbovenhoek van een object staat.<br/> 
+Een voorkomen bevat de gegevens van één object, zoals deze gedurende een bepaalde periode bekend zijn bij het object. Na elke wijziging ontstaat een nieuw voorkomen. De historiegegevens zelf zijn ook onderdeel van het voorkomen (als metagegevens). 
 
 Een voorkomen/versie wordt uniek aangeduid met een combinatie van gegevens: 
 *	identificatie van het object 
 *	tijdstipRegistatieOR of beginGeldigheid
 *	volgnummer: een opvolgend nummer ter (aanvullende) identificatie van een voorkomen/versie, in aanvulling op de eerste twee gegevens. 
 
-**Volgnummer**: initieel heeft dit attribuut de waarde 0 en dit is vrijwel altijd de waarde. Er kan in bijzondere situaties een nieuwe voorkomen/versie ontstaan, met dezelfde identificatie van het object en dezelfde tijdstipRegistatieOR of beginGeldigheid. Dit gebeurt als er meerdere voorkomens van het object op dezelfde dag ontstaan, of wanneer er een fout hersteld wordt, waarbij de foute gegevens onder dezelfde identificatie bewaard moeten blijven in de registratie. 
+**Volgnummer**: initieel heeft dit attribuut de waarde 0. Er kan in bijzondere situaties een nieuwe voorkomen/versie ontstaan, met dezelfde identificatie van het object en dezelfde tijdstipRegistatieOR of beginGeldigheid. Dit gebeurt als er meerdere voorkomens van het object op dezelfde tijdstip ontstaan, of wanneer er een fout hersteld wordt, waarbij de foute gegevens onder dezelfde identificatie en tijdstip bewaard moeten blijven in de registratie. 
 
-**Status**: deze status geeft aan of een gegeven als een normaal geldig gegeven beschouwd moet worden, of dat er iets bijzonders aan de hand is. 
-*	G van geldig. Vrijwel alle gegevens hebben deze status. 
+**Status**: deze status geeft aan of een voorkomen als een normaal geldig gegeven beschouwd moet worden, of dat er iets bijzonders aan de hand is. 
+*	G van geldig. 
 *	C van correctie. Gegevens die niet correct waren worden hersteld. De C geeft aan dat de gegevens van dit voorkomen niet meer correct zijn. Deze gegevens worden in principe niet meer uitgeleverd, maar zijn nog wel op te vragen (als het echt nodig is).
 
-De specifieke werking van het bijhouden van historie, zoals wanneer een eindGeldigheid gevuld wordt en dat het moment hiervan gelijk is aan de eindRegistratie, wordt niet beschreven in IMKAD en is in principe ook niet nodig om te bepalen wanneer bepaalde gegevens geldig zijn of waren, of vanaf wanneer dit beschikbaar was voor gebruikers. Het volstaat om te weten dat elk voorkomen/versie uniek aangeduid kan worden met een vaste bestendige uniek identificerende combinatie van gegevens.
+De specifieke werking van het bijhouden van historie wordt niet beschreven in IMKAD. Het volstaat om te weten dat elk voorkomen/versie uniek aangeduid kan worden met een vaste bestendige uniek identificerende combinatie van historie gegevens.
 
 
 <h3>Vertaling naar technische formaten</h3>
